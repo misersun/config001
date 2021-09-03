@@ -1,9 +1,9 @@
 cd
-c:
-cd c:\github\config002
+d:
+cd D:\free\github\company001
 cd
-copy c:\github\config_v.yaml . /Y
-copy c:\github\config_other.yaml . /Y
+copy D:\free\github\config_v.yaml . /Y
+copy D:\free\github\config_other.yaml . /Y
 git add .
 git commit -m "update"
 git branch -M main
