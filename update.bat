@@ -1,5 +1,7 @@
-d:\
+cd
+d:
 cd D:\free\github\company001
+cd
 copy E:\FangCloudSync\Python\workspace\PycharmProjects\myapp\AutoClashYaml\config_v.yaml . /Y
 copy E:\FangCloudSync\Python\workspace\PycharmProjects\myapp\AutoClashYaml\config_other.yaml . /Y
 git add .
