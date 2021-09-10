@@ -1,118 +1,5 @@
 proxies:
-- name: RelayRORO7911257292030983363
-  server: hk-server-01.selfupay.com
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: bngancomHK香港289172530013286
-  server: hk-server-02.selfupay.com
-  port: 443
-  type: trojan
-  password: a3fa58b581353bb375d2ddad0f327938
-- name: ' H3xTW彰化HiNetRC32125219930403316'
-  server: yqy32125.china-cdn-net.com
-  port: 32125
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' H25xTW台北HiNetRC31222216730213298'
-  server: yqy31222.china-cdn-net.com
-  port: 31222
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' I6xHKHKTBGPRC36224221830543329'
-  server: yqy36224.china-cdn-net.com
-  port: 36224
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' I6xTW台北HiNetRC31127222330583333'
-  server: yqy31127.china-cdn-net.com
-  port: 31127
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' H25xTW彰化HiNetRC32222217130253302'
-  server: yqy32222.china-cdn-net.com
-  port: 32222
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' I5xTW彰化HiNetRC32223221030493325'
-  server: yqy32223.china-cdn-net.com
-  port: 32223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' I5xTW台北HiNetRC31122220530443320'
-  server: yqy31122.china-cdn-net.com
-  port: 31122
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' H3xHKHKTBGPRC36223219030323308'
-  server: yqy36223.china-cdn-net.com
-  port: 36223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' H3xTW台北HiNetRC31126219630373313'
-  server: yqy31126.china-cdn-net.com
-  port: 31126
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' I6xHKHKTBGPRC36324221930553330'
-  server: yqy36324.china-cdn-net.com
-  port: 36324
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' H3xHKHKTBGPRC36123218930313307'
+- name: ' H3xHKHKTBGPRC361232189303133072985'
   server: yqy36123.china-cdn-net.com
   port: 36123
   type: ssr
@@ -122,17 +9,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: SG11228114129743263
-  server: 188.166.242.117
-  type: trojan
-  country: SG
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: ' I6xTW台北HiNetRC31128222430593334'
-  server: yqy31128.china-cdn-net.com
-  port: 31128
+- name: ' I6xTW台北HiNetRC311272223305833333010'
+  server: yqy31127.china-cdn-net.com
+  port: 31127
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -140,9 +19,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: ' I5xTW台北HiNetRC31223220630453321'
-  server: yqy31223.china-cdn-net.com
-  port: 31223
+- name: ' H3xTW台北HiNetRC311262196303733132991'
+  server: yqy31126.china-cdn-net.com
+  port: 31126
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -150,9 +29,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: ' H25xTW彰化HiNetRC32121217030243301'
-  server: yqy32121.china-cdn-net.com
-  port: 32121
+- name: ' H3xHKHKTBGPRC362232190303233082986'
+  server: yqy36223.china-cdn-net.com
+  port: 36223
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -160,7 +39,37 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: ' H3xTW台北HiNetRC31125219530363312'
+- name: ' I6xHKHKTBGPRC362242218305433293006'
+  server: yqy36224.china-cdn-net.com
+  port: 36224
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: ' HTW高雄龍抬頭HiNetRC331252062'
+  server: yqy33125.china-cdn-net.com
+  port: 33125
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: ' H25xTW台北HiNetRC312222167302132982977'
+  server: yqy31222.china-cdn-net.com
+  port: 31222
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: ' H3xTW台北HiNetRC311252195303633122990'
   server: yqy31125.china-cdn-net.com
   port: 31125
   type: ssr
@@ -170,9 +79,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: ' I5xTW彰化HiNetRC32122220930483324'
-  server: yqy32122.china-cdn-net.com
-  port: 32122
+- name: ' I5xTW台北HiNetRC312232206304533212999'
+  server: yqy31223.china-cdn-net.com
+  port: 31223
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -180,9 +89,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: ' ITW高雄龍抬頭HiNetRC331282331'
-  server: yqy33128.china-cdn-net.com
-  port: 33128
+- name: ' ITW高雄龍抬頭HiNetRC3312223202888'
+  server: yqy33122.china-cdn-net.com
+  port: 33122
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -190,9 +99,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: ' H25xTW台北HiNetRC31121216630203297'
-  server: yqy31121.china-cdn-net.com
-  port: 31121
+- name: ' I5xTW台北HiNetRC311222205304433202998'
+  server: yqy31122.china-cdn-net.com
+  port: 31122
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -200,9 +109,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: ' H3xTW彰化HiNetRC32126220030413317'
-  server: yqy32126.china-cdn-net.com
-  port: 32126
+- name: ' I5xTW彰化HiNetRC322232210304933253003'
+  server: yqy32223.china-cdn-net.com
+  port: 32223
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -210,63 +119,7 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: RelayJPJP7319110029663255
-  server: jp-server-02.selfupay.com
-  type: trojan
-  country: JP
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: JP6492  636Mb2890
-  server: 13.231.43.203
-  type: ssr
-  country: JP
-  port: 8081
-  password: 3H2aN5Gnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: Conference PPhttp2374
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 60b0a8c0-03fb-11ec-9a71-1239d0255272
-  udp: true
-  sni: talkgadget.google.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: ' H26xUS舊金山DigitalOceanRC3312223218230293306'
-  server: SCDN.3312223.BPQZDO.China-nCDN-nRDS.com
-  port: 12223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' Russia225030643339'
-  server: russia.cscecsr.tk
-  port: 443
-  type: trojan
-  password: abc123
-  sni: russia.cscecsr.tk
-  skip-cert-verify: true
-  udp: true
-- name: ' HTW高雄龍抬頭HiNetRC332272280'
-  server: yqy33227.china-cdn-net.com
-  port: 33227
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' Game 3 PPhttp2371'
+- name: ' Game 3 PPhttp23712896'
   type: trojan
   server: sg2-trojan.bonds.id
   port: 443
@@ -277,43 +130,68 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: RelayCNRU240210123200
-  server: dog.gkd.world
+- name: ' cfmemcomJP日本21756'
+  server: wangjinang.ml
+  port: 50866
+  type: trojan
+  password: yLBm0Q2noA
+  sni: wangjinang.ml
+  skip-cert-verify: false
+- name: ' HTW高雄龍抬頭HiNetRC3312623032886'
+  server: yqy33126.china-cdn-net.com
+  port: 33126
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: ' H25xTW彰化HiNetRC322222171302533022981'
+  server: yqy32222.china-cdn-net.com
+  port: 32222
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: ' HTW高雄龍抬頭HiNetRC331212039'
+  server: yqy33121.china-cdn-net.com
+  port: 33121
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: Conference PPhttp23742897
+  type: trojan
+  server: id1-trojan.bonds.id
+  port: 443
+  password: 60b0a8c0-03fb-11ec-9a71-1239d0255272
+  udp: true
+  sni: talkgadget.google.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: RelayCNHK3043174
+  server: n37.boom.party
   type: ssr
   country: CN
-  port: 10686
-  password: tFlIIS
+  port: 33300
+  password: Uk92CS
   cipher: aes-256-cfb
   protocol: auth_aes128_sha1
-  protocol-param: 11752:CbQhlx
+  protocol-param: 254637:Ol4zZv
   obfs: http_simple
-  obfs-param: .www.bing.com
-- name: ' 美国011903'
-  server: usa-server-01.f7256f.cn
-  port: 443
-  type: trojan
-  password: a3fa58b581353bb375d2ddad0f327938
-  sni: usa-server-01.f7256f.cn
-  skip-cert-verify: false
-- name: SanJose225130653340
-  server: sanjose.cscecsr.tk
-  port: 443
-  type: trojan
-  password: abc123
-  sni: sanjose.cscecsr.tk
-  skip-cert-verify: true
-  udp: true
-- name: RelayJPRU206423453222
-  server: t6.ssrsub.one
-  type: trojan
-  country: JP
-  port: 8443
-  password: fe74a1aa-4849-4239-838e-1e7d9f6e975d
-  skip-cert-verify: true
-  udp: true
-- name: ' I6xTW彰化HiNetRC32128222830633338'
-  server: yqy32128.china-cdn-net.com
-  port: 32128
+  obfs-param: download.windowsupdate.com
+- name: ' HTW高雄龍抬頭HiNetRC3322722802884'
+  server: yqy33227.china-cdn-net.com
+  port: 33227
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -321,55 +199,16 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: httpsgitiov9999 clash ip3 21152529873276
-  server: www.ligonwen.cf
+- name: trojan16592857
+  type: trojan
+  server: 65.49.196.246
   port: 443
-  type: trojan
-  password: 7836137d-2db0-4809-9b57-ed14cf2ed4ce
-  sni: www.ligonwen.cf
-- name: US17906124829853274
-  server: 45.33.28.243
-  type: trojan
-  country: US
-  port: 8080
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: DE2997 2143Mb2880
-  server: 194.195.124.174
-  type: trojan
-  country: DE
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 中国福建厦门ssr120414121543552200230083290
-  port: 43552
-  obfs: plain
-  protocol: origin
-  password: GUTGQJ
-  server: 120.41.41.215
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-  type: ssr
-- name: bngancomUS美国124191174630033287
-  server: usa-server-02.selfupay.com
-  port: 443
-  type: trojan
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  sni: usa-server-02.selfupay.com
-- name: ' ITW高雄龍抬頭HiNetRC331222320'
-  server: yqy33122.china-cdn-net.com
-  port: 33122
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: ' ITW高雄龍抬頭HiNetRC331272330'
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: ' ITW高雄龍抬頭HiNetRC3312723302889'
   server: yqy33127.china-cdn-net.com
   port: 33127
   type: ssr
@@ -379,40 +218,104 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: US15550  824Mb3014
-  server: 18.236.120.96
-  type: ssr
-  country: US
-  port: 8081
-  password: YFVrXZgRo
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: RelayJPJP7320110129673256
-  server: au-server-01.f7256f.cn
-  type: trojan
-  country: JP
+- name: SanJose2251306533403016
+  server: sanjose.cscecsr.tk
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  type: trojan
+  password: abc123
+  sni: sanjose.cscecsr.tk
   skip-cert-verify: true
   udp: true
-- name: DE3362103229583248
-  server: 139.59.209.152
+- name: httpsgitiov9999 clash ip3 211525298732762961
+  server: www.ligonwen.cf
+  port: 443
+  type: trojan
+  password: 7836137d-2db0-4809-9b57-ed14cf2ed4ce
+  sni: www.ligonwen.cf
+- name: RelayUSUS184521191
+  server: abnode17.makegamegoal.com
+  type: trojan
+  country: US
+  port: 8443
+  password: 4f4c470e-22e5-4929-bf87-c431538e8f5b
+  sni: abnode17.makegamegoal.com
+  skip-cert-verify: true
+  udp: true
+- name: bngancomUS美国1241911746300332872969
+  server: usa-server-02.selfupay.com
+  port: 443
+  type: trojan
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  sni: usa-server-02.selfupay.com
+- name: RelayJPRU2064234532222923
+  server: t6.ssrsub.one
+  type: trojan
+  country: JP
+  port: 8443
+  password: fe74a1aa-4849-4239-838e-1e7d9f6e975d
+  skip-cert-verify: true
+  udp: true
+- name: DE2997 2143Mb28802904
+  server: 194.195.124.174
   type: trojan
   country: DE
   port: 4443
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: RelayUSUS17904124629843273
-  server: ust-1.opensvr.net
-  type: trojan
-  country: US
+- name: ' Russia2250306433393015'
+  server: russia.cscecsr.tk
   port: 443
-  password: opentunnel.net-hdkshak
+  type: trojan
+  password: abc123
+  sni: russia.cscecsr.tk
   skip-cert-verify: true
   udp: true
-- name: RelayUS824  538Mb713
+- name: RelayCNTW59124242898
+  server: p5.22332e.com
+  type: ssr
+  country: CN
+  port: 8333
+  password: passfw2xs4e!
+  cipher: rc4-md5
+  protocol: origin
+  protocol-param: t.me/SSRSUB
+  obfs: plain
+- name: 中国福建厦门ssr1204141215435522002300832902971
+  port: 43552
+  obfs: plain
+  protocol: origin
+  password: GUTGQJ
+  server: 120.41.41.215
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+  type: ssr
+- name: GB53571046296232522948
+  server: 138.68.179.78
+  type: trojan
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: NL82041136297232612952
+  server: 178.62.201.120
+  type: trojan
+  country: NL
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: RelayRORO7914281293932322932
+  server: ch-server-01.f7256f.cn
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: RelayUS824  538Mb7132838
   server: cu.newhost.cc
   type: ssr
   country: CN
@@ -423,35 +326,47 @@ proxies:
   protocol-param: 11752:CbQhlx
   obfs: http_simple
   obfs-param: .www.bing.com
-- name: RelayUSUS441425123223
-  server: t2.ssrsub.one
+- name: DE33621032295832482946
+  server: 139.59.209.152
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: ' ITW高雄龍抬頭HiNetRC3312823312890'
+  server: yqy33128.china-cdn-net.com
+  port: 33128
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: CA23671020295532462944
+  server: 138.197.162.114
+  type: trojan
+  country: CA
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: US179061248298532742959
+  server: 45.33.28.243
   type: trojan
   country: US
-  port: 8443
-  password: fe74a1aa-4849-4239-838e-1e7d9f6e975d
-  skip-cert-verify: true
-  udp: true
-- name: httpsgitiov9999 clash ip3 2150629863275
-  server: in1-1.noojat.com
-  port: 1443
-  type: trojan
+  port: 8080
   password: 7x42LetRa0
-  sni: in1-1.noojat.com
-- name: RelayNLNL8205113729733262
-  server: ned-server-01.selfupay.com
-  type: trojan
-  country: NL
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 中国福建厦门ssr12041415643552200330093291
-  port: 43552
-  obfs: plain
-  protocol: origin
-  password: GUTGQJ
-  server: 120.41.41.56
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
+- name: 06中继中转隧道线路覆盖208132152919
+  server: yqy2326.china-cdn-net.com
+  port: 2326
   type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
