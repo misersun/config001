@@ -1,0 +1,89 @@
+proxies:
+- name: SanJose888
+  server: sanjose.cscecsr.tk
+  port: 443
+  type: trojan
+  password: abc123
+  sni: sanjose.cscecsr.tk
+  skip-cert-verify: true
+  udp: true
+- name: ' 美国 02 Multacom1341'
+  server: 173.82.55.94
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /footers
+  ws-headers:
+    Host: www.01787634.xyz
+- alterId: 64
+  cipher: auto
+  name: 0928oslook美国USUSASanta Clarita28590
+  network: ws
+  port: 443
+  server: 173.82.55.93
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: www.01787634.xyz
+  ws-path: /footers
+- name: 虎窝vmess节点081397
+  server: 96.43.91.59
+  port: 443
+  type: vmess
+  uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/310910211916
+  ws-headers:
+    Host: www.45218443.xyz
+- name: SSRSUBV37付费推荐suoytssrsub981
+  server: nn-ssr24.feiclouddd.me
+  port: 443
+  type: vmess
+  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
+  alterId: 60
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /dsafasdf
+  ws-headers:
+    Host: nn-ssr24.feiclouddd.me
+- name: SSRSUBV14付费推荐suoytssrsub958
+  server: 45.80.186.148
+  port: 65443
+  type: vmess
+  uuid: 7043d711-8795-4940-8e54-1c269c2eba19
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /0069/
+  ws-headers:
+    Host: us1.piyou.cyou
+- name: NodeTest 89  18551 KB717
+  server: us01.tencentlink.icu
+  port: 10000
+  type: trojan
+  password: 42c2d9d7-d55c-4d6c-ba0a-47bf312b4ab6
+  skip-cert-verify: false
+  udp: true
+  speedtest: 189959
+- name: ' 美国 03 Multacom1342'
+  server: 173.82.150.26
+  port: 443
+  type: vmess
+  uuid: 1a116d02-5fca-47fa-a2a1-6e8d0f2f71cc
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/310910211916
+  ws-headers:
+    Host: www.75287890.xyz
