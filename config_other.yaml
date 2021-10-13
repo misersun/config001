@@ -1,167 +1,315 @@
 proxies:
-- name: 4.69| H3xHKHKTBGPRC36223
-  server: yqy36223.china-cdn-net.com
-  port: 36223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.67| H3xTW台北HiNetRC31126
-  server: yqy31126.china-cdn-net.com
-  port: 31126
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.58| I5xTW台北HiNetRC31122
-  server: yqy31122.china-cdn-net.com
-  port: 31122
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.53| I6xTW台北HiNetRC31128
-  server: yqy31128.china-cdn-net.com
-  port: 31128
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.51| H3xTW台北HiNetRC31125
-  server: yqy31125.china-cdn-net.com
-  port: 31125
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.22| H25xTW台北HiNetRC31121
-  server: yqy31121.china-cdn-net.com
-  port: 31121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.15| I6xTW台北HiNetRC31127
-  server: yqy31127.china-cdn-net.com
-  port: 31127
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.20| I6xTW彰化HiNetRC32128
-  server: yqy32128.china-cdn-net.com
-  port: 32128
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.14| I6xTW彰化HiNetRC32127
-  server: yqy32127.china-cdn-net.com
-  port: 32127
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.05| HTW高雄龍抬頭HiNetRC33121
-  server: yqy33121.china-cdn-net.com
-  port: 33121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.04| 日本JP 03
-  server: ly.pw999.fanssr.cn
-  port: 21111
-  type: ssr
+- name: 7.87| 日本 01
+  type: ss
+  server: 162.14.8.16
+  port: '9002'
   cipher: chacha20-ietf
-  password: download.microso
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 7474:DmsUoD
-  obfs-param: 1d0f87474.download.microsoft.com
+  password: AmyTelecom_11451419I981O
   udp: true
-- name: 2.97| ITW高雄龍抬頭HiNetRC33127
-  server: yqy33127.china-cdn-net.com
-  port: 33127
-  type: ssr
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.82| 日本 06
+  type: ss
+  server: 162.14.15.168
+  port: '9025'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.78| 日本 05
+  type: ss
+  server: 162.14.15.168
+  port: '9020'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.64| 日本 03
+  type: ss
+  server: 162.14.8.16
+  port: '9010'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.63| 日本 02
+  type: ss
+  server: 162.14.8.16
+  port: '9005'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.61| 日本 07
+  type: ss
+  server: 162.14.15.168
+  port: '9030'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.20| 香港 01
+  type: ss
+  server: 162.14.16.18
+  port: '9300'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.19| 香港 05
+  type: ss
+  server: 162.14.21.127
+  port: '9320'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.13| HK6360  272Mb
+  server: 118.107.244.112
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 7.12| 台湾 05
+  type: ss
+  server: 162.14.16.18
+  port: '9375'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.02| 台湾 04
+  type: ss
+  server: 162.14.21.127
+  port: '9370'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.88| 香港 10
+  type: ss
+  server: 162.14.16.18
+  port: '9345'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.74| 香港 08
+  type: ss
+  server: 162.14.21.127
+  port: '9335'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.72| 台湾 03
+  type: ss
+  server: 162.14.21.127
+  port: '9365'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.44| 香港 09
+  type: ss
+  server: 162.14.21.127
+  port: '9340'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.43| 台湾 02
+  type: ss
+  server: 162.14.16.18
+  port: '9360'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.35| 新加坡 04
+  type: ss
+  server: 162.14.21.127
+  port: '9395'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.34| 香港 06
+  type: ss
+  server: 162.14.21.127
+  port: '9325'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.17| 日本 08
+  type: ss
+  server: 162.14.15.168
+  port: '9035'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.07| 新加坡 01
+  type: ss
+  server: 162.14.16.18
+  port: '9380'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.02| 香港 07
+  type: ss
+  server: 162.14.21.127
+  port: '9330'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.83| 日本 04
+  type: ss
+  server: 162.14.8.16
+  port: '9015'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.67| 新加坡 03
+  type: ss
+  server: 162.14.21.127
+  port: '9390'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.62| 新加坡 02
+  type: ss
+  server: 162.14.16.18
+  port: '9385'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.52| 香港 04
+  type: ss
+  server: 162.14.16.18
+  port: '9315'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.48| 香港 03
+  type: ss
+  server: 162.14.16.18
+  port: '9310'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.44|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
   cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.88|RelayCNIN244
-  server: cu.newhost.cc
-  type: ssr
-  country: CN
-  port: 10693
-  password: TuXJdt
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 4647:thd4vu
-  obfs: tls1.2_ticket_auth
-  obfs-param: .microsoft.com
-- name: 2.54| HTW高雄龍抬頭HiNetRC33227
-  server: yqy33227.china-cdn-net.com
-  port: 33227
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.40| HTW高雄龍抬頭HiNetRC33125
-  server: yqy33125.china-cdn-net.com
-  port: 33125
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.29| ITW高雄龍抬頭HiNetRC33122
-  server: yqy33122.china-cdn-net.com
-  port: 33122
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.26| H3xHKHKTBGPRC36123
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 5.30| 香港 11
+  type: ss
+  server: 162.14.16.18
+  port: '9350'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.03| 香港 02
+  type: ss
+  server: 162.14.16.18
+  port: '9305'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 4.62|2.26| H3xHKHKTBGPRC36123
   server: yqy36123.china-cdn-net.com
   port: 36123
   type: ssr
@@ -171,9 +319,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 2.22| I6xHKHKTBGPRC36224
-  server: yqy36224.china-cdn-net.com
-  port: 36224
+- name: 4.51|4.58| I5xTW台北HiNetRC31122
+  server: yqy31122.china-cdn-net.com
+  port: 31122
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -181,9 +329,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 2.17| H3xTW彰化HiNetRC32125
-  server: yqy32125.china-cdn-net.com
-  port: 32125
+- name: 4.44|4.22| H25xTW台北HiNetRC31121
+  server: yqy31121.china-cdn-net.com
+  port: 31121
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -191,9 +339,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 2.03| ITW高雄龍抬頭HiNetRC33128
-  server: yqy33128.china-cdn-net.com
-  port: 33128
+- name: 4.44|4.69| H3xHKHKTBGPRC36223
+  server: yqy36223.china-cdn-net.com
+  port: 36223
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -201,7 +349,27 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 1.40| H25xTW彰化HiNetRC32121
+- name: 4.20|4.67| H3xTW台北HiNetRC31126
+  server: yqy31126.china-cdn-net.com
+  port: 31126
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.13|4.15| I6xTW台北HiNetRC31127
+  server: yqy31127.china-cdn-net.com
+  port: 31127
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.95|1.40| H25xTW彰化HiNetRC32121
   server: yqy32121.china-cdn-net.com
   port: 32121
   type: ssr
@@ -211,9 +379,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 1.01| H3xTW彰化HiNetRC32126
-  server: yqy32126.china-cdn-net.com
-  port: 32126
+- name: 3.93|2.40| HTW高雄龍抬頭HiNetRC33125
+  server: yqy33125.china-cdn-net.com
+  port: 33125
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -221,3 +389,136 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 3.88| I6xHKHKTBGPRC36124
+  server: yqy36124.china-cdn-net.com
+  port: 36124
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.77| 台湾 01
+  type: ss
+  server: 162.14.16.18
+  port: '9355'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.54| Lv1 台湾 C  Netflix
+  server: hinet.rdns.link
+  port: 50023
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 7933:MbSz1L
+  obfs-param: cff407933.software-download.microsoft.com
+- name: 3.53|4.53| I6xTW台北HiNetRC31128
+  server: yqy31128.china-cdn-net.com
+  port: 31128
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.39| Lv1 台湾 G  Netflix
+  server: hinet.rdns.link
+  port: 50027
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 7933:MbSz1L
+  obfs-param: cff407933.software-download.microsoft.com
+- name: 3.28| 美国 01
+  type: ss
+  server: 162.14.8.16
+  port: '9100'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.26| 美国 08
+  type: ss
+  server: 162.14.15.168
+  port: '9135'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.25| 美国 02
+  type: ss
+  server: 162.14.8.16
+  port: '9105'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.23| 美国 05
+  type: ss
+  server: 162.14.8.16
+  port: '9120'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.19| 美国 12
+  type: ss
+  server: 162.14.8.16
+  port: '9155'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.17|4203020937588
+  server: 42.0.30.209
+  port: 37588
+  type: ss
+  cipher: aes-256-gcm
+  password: kD9vkjnE6dsUzwQfvKkPkQAd
+- name: 3.17|2.03| ITW高雄龍抬頭HiNetRC33128
+  server: yqy33128.china-cdn-net.com
+  port: 33128
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.17| 美国 04
+  type: ss
+  server: 162.14.8.16
+  port: '9115'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com

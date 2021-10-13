@@ -1,19 +1,293 @@
 proxies:
-- name: 5.81| 新加坡02 2
-  server: azhk.zz123.xyz
-  port: 35724
-  type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
+- name: 7.87| 日本 01
+  type: ss
+  server: 162.14.8.16
+  port: '9002'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
   udp: true
-- name: 5.15| 新加坡01 2
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.82| 日本 06
+  type: ss
+  server: 162.14.15.168
+  port: '9025'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.78| 日本 05
+  type: ss
+  server: 162.14.15.168
+  port: '9020'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.64| 日本 03
+  type: ss
+  server: 162.14.8.16
+  port: '9010'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.63| 日本 02
+  type: ss
+  server: 162.14.8.16
+  port: '9005'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.61| 日本 07
+  type: ss
+  server: 162.14.15.168
+  port: '9030'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.20| 香港 01
+  type: ss
+  server: 162.14.16.18
+  port: '9300'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.19| 香港 05
+  type: ss
+  server: 162.14.21.127
+  port: '9320'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.13| HK6360  272Mb
+  server: 118.107.244.112
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 7.12| 台湾 05
+  type: ss
+  server: 162.14.16.18
+  port: '9375'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.02| 台湾 04
+  type: ss
+  server: 162.14.21.127
+  port: '9370'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.88| 香港 10
+  type: ss
+  server: 162.14.16.18
+  port: '9345'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.74| 香港 08
+  type: ss
+  server: 162.14.21.127
+  port: '9335'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.72| 台湾 03
+  type: ss
+  server: 162.14.21.127
+  port: '9365'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.44| 香港 09
+  type: ss
+  server: 162.14.21.127
+  port: '9340'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.43| 台湾 02
+  type: ss
+  server: 162.14.16.18
+  port: '9360'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.35| 新加坡 04
+  type: ss
+  server: 162.14.21.127
+  port: '9395'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.34| 香港 06
+  type: ss
+  server: 162.14.21.127
+  port: '9325'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.17| 日本 08
+  type: ss
+  server: 162.14.15.168
+  port: '9035'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.07| 新加坡 01
+  type: ss
+  server: 162.14.16.18
+  port: '9380'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 6.02| 香港 07
+  type: ss
+  server: 162.14.21.127
+  port: '9330'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.83| 日本 04
+  type: ss
+  server: 162.14.8.16
+  port: '9015'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.67| 新加坡 03
+  type: ss
+  server: 162.14.21.127
+  port: '9390'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.62| 新加坡 02
+  type: ss
+  server: 162.14.16.18
+  port: '9385'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.52| 香港 04
+  type: ss
+  server: 162.14.16.18
+  port: '9315'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.48| 香港 03
+  type: ss
+  server: 162.14.16.18
+  port: '9310'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.44|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 5.40|5.15| 新加坡01 2
   server: azhk.zz123.xyz
   port: 38141
   type: vmess
@@ -27,7 +301,29 @@ proxies:
   ws-headers:
     Host: azhk.zz123.xyz
   udp: true
-- name: 5.03| 香港免流03 2
+- name: 5.30| 香港 11
+  type: ss
+  server: 162.14.16.18
+  port: '9350'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 5.03| 香港 02
+  type: ss
+  server: 162.14.16.18
+  port: '9305'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 4.91|5.03| 香港免流03 2
   server: hk03.zz123.xyz
   port: 80
   type: vmess
@@ -41,86 +337,21 @@ proxies:
   ws-headers:
     Host: a.189.cn
   udp: true
-- name: 4.95| I6xHKHKTBGPVC36234
-  server: yqy36234.china-cdn-net.com
-  port: 36234
+- name: 4.89| 香港免流04 2
+  server: hk04.zz123.xyz
+  port: 80
   type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /iso
+  ws-path: /zz
   ws-headers:
-    Host: yqy36234.china-cdn-net.com
-- name: 4.91| I6xTW台北HiNetVC31138
-  server: yqy31138.china-cdn-net.com
-  port: 31138
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy31138.china-cdn-net.com
-- name: 4.69| H3xHKHKTBGPRC36223
-  server: yqy36223.china-cdn-net.com
-  port: 36223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.67| H3xTW台北HiNetRC31126
-  server: yqy31126.china-cdn-net.com
-  port: 31126
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.58| I5xTW台北HiNetRC31122
-  server: yqy31122.china-cdn-net.com
-  port: 31122
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.56| H3xTW台北HiNetVC31135
-  server: yqy31135.china-cdn-net.com
-  port: 31135
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy31135.china-cdn-net.com
-- name: 4.53| I6xTW台北HiNetRC31128
-  server: yqy31128.china-cdn-net.com
-  port: 31128
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.51| 日本03 2
+    Host: a.189.cn
+  udp: true
+- name: 4.78|4.51| 日本03 2
   server: azhk.zz123.xyz
   port: 36813
   type: vmess
@@ -134,9 +365,48 @@ proxies:
   ws-headers:
     Host: azhk.zz123.xyz
   udp: true
-- name: 4.51| H3xTW台北HiNetRC31125
-  server: yqy31125.china-cdn-net.com
-  port: 31125
+- name: 4.72|3.88| I6xTW台北HiNetVC31137
+  server: yqy31137.china-cdn-net.com
+  port: 31137
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy31137.china-cdn-net.com
+- name: 4.67|4.91| I6xTW台北HiNetVC31138
+  server: yqy31138.china-cdn-net.com
+  port: 31138
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy31138.china-cdn-net.com
+- name: 4.63|4.56| H3xTW台北HiNetVC31135
+  server: yqy31135.china-cdn-net.com
+  port: 31135
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy31135.china-cdn-net.com
+- name: 4.62|2.26| H3xHKHKTBGPRC36123
+  server: yqy36123.china-cdn-net.com
+  port: 36123
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -144,15 +414,7 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 4.50|JP7023 2643Mb
-  server: 45.66.134.219
-  type: trojan
-  country: JP
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 4.43| H25xTW台北HiNetVC31132
+- name: 4.60|4.43| H25xTW台北HiNetVC31132
   server: yqy31132.china-cdn-net.com
   port: 31132
   type: vmess
@@ -165,7 +427,43 @@ proxies:
   ws-path: /iso
   ws-headers:
     Host: yqy31132.china-cdn-net.com
-- name: 4.22| H25xTW台北HiNetRC31121
+- name: 4.51|4.58| I5xTW台北HiNetRC31122
+  server: yqy31122.china-cdn-net.com
+  port: 31122
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.49|1.47| H25xTW彰化HiNetVC32132
+  server: yqy32132.china-cdn-net.com
+  port: 32132
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy32132.china-cdn-net.com
+- name: 4.46|2.16| I5xTW台北HiNetVC31131
+  server: yqy31131.china-cdn-net.com
+  port: 31131
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy31131.china-cdn-net.com
+- name: 4.44|4.22| H25xTW台北HiNetRC31121
   server: yqy31121.china-cdn-net.com
   port: 31121
   type: ssr
@@ -175,7 +473,58 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 4.15| I6xTW台北HiNetRC31127
+- name: 4.44|4.69| H3xHKHKTBGPRC36223
+  server: yqy36223.china-cdn-net.com
+  port: 36223
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.42|1.13| I5xTW彰化HiNetVC32131
+  server: yqy32131.china-cdn-net.com
+  port: 32131
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy32131.china-cdn-net.com
+- name: 4.37|RO10006 2112Mb
+  server: 62.216.92.179
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- alterId: 10
+  cipher: auto
+  name: 4.27|1012oslook中国香港特别行政区HKHongkong SAR ChinaHong Kong2
+  network: ws
+  port: 88
+  server: hkml.jjyun.ren
+  tls: false
+  type: vmess
+  uuid: c8191e5d-c551-4896-8d57-7493da874557
+  ws-path: /jjyun
+- name: 4.20|4.67| H3xTW台北HiNetRC31126
+  server: yqy31126.china-cdn-net.com
+  port: 31126
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.13|4.15| I6xTW台北HiNetRC31127
   server: yqy31127.china-cdn-net.com
   port: 31127
   type: ssr
@@ -185,15 +534,20 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 4.09|JP7017 1544Mb
-  server: jp-server-02.selfupay.com
-  type: trojan
-  country: JP
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 4.06| 印度01
+- name: 4.06|3.96| H3xHKHKTBGPVC36233
+  server: yqy36233.china-cdn-net.com
+  port: 36233
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy36233.china-cdn-net.com
+- name: 4.03|4.06| 印度01
   server: azhk.zz123.xyz
   port: 33959
   type: vmess
@@ -207,7 +561,40 @@ proxies:
   ws-headers:
     Host: azhk.zz123.xyz
   udp: true
-- name: 3.97| 韩国 2
+- name: 3.96|2.05| ITW高雄龍抬頭HiNetVC33137
+  server: yqy33137.china-cdn-net.com
+  port: 33137
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy33137.china-cdn-net.com
+- name: 3.95|1.40| H25xTW彰化HiNetRC32121
+  server: yqy32121.china-cdn-net.com
+  port: 32121
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.93|2.40| HTW高雄龍抬頭HiNetRC33125
+  server: yqy33125.china-cdn-net.com
+  port: 33125
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.92|3.97| 韩国 2
   server: azhk.zz123.xyz
   port: 42799
   type: vmess
@@ -221,9 +608,41 @@ proxies:
   ws-headers:
     Host: azhk.zz123.xyz
   udp: true
-- name: 3.96| H3xHKHKTBGPVC36233
-  server: yqy36233.china-cdn-net.com
-  port: 36233
+- name: 3.88|2.23|CN2510  572Mb
+  server: hk1.v3.zz.cn.fuckword.club
+  type: trojan
+  country: CN
+  port: 47605
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 3.88| I6xHKHKTBGPRC36124
+  server: yqy36124.china-cdn-net.com
+  port: 36124
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.83|5.81| 新加坡02 2
+  server: azhk.zz123.xyz
+  port: 35724
+  type: vmess
+  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: azhk.zz123.xyz
+  udp: true
+- name: 3.79|2.29| H3xTW台北HiNetVC31136
+  server: yqy31136.china-cdn-net.com
+  port: 31136
   type: vmess
   uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
@@ -233,10 +652,21 @@ proxies:
   network: ws
   ws-path: /iso
   ws-headers:
-    Host: yqy36233.china-cdn-net.com
-- name: 3.88| I6xTW台北HiNetVC31137
-  server: yqy31137.china-cdn-net.com
-  port: 31137
+    Host: yqy31136.china-cdn-net.com
+- name: 3.77| 台湾 01
+  type: ss
+  server: 162.14.16.18
+  port: '9355'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.61|4.95| I6xHKHKTBGPVC36234
+  server: yqy36234.china-cdn-net.com
+  port: 36234
   type: vmess
   uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
@@ -246,8 +676,65 @@ proxies:
   network: ws
   ws-path: /iso
   ws-headers:
-    Host: yqy31137.china-cdn-net.com
-- name: 3.88| 香港免流01 2
+    Host: yqy36234.china-cdn-net.com
+- name: 3.56|1.28| I5xTW彰化HiNetVC32233
+  server: yqy32233.china-cdn-net.com
+  port: 32233
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy32233.china-cdn-net.com
+- name: 3.54| Lv1 台湾 C  Netflix
+  server: hinet.rdns.link
+  port: 50023
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 7933:MbSz1L
+  obfs-param: cff407933.software-download.microsoft.com
+- name: 3.53|4.53| I6xTW台北HiNetRC31128
+  server: yqy31128.china-cdn-net.com
+  port: 31128
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.48| Lv310x 香港01IP均衡优化混合负载
+  server: lv3fl2ciw6cwas22peq.v22222.xyz
+  port: 33332
+  type: vmess
+  uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /tnt-hk1
+  ws-headers:
+    Host: baidu.com
+  udp: true
+- name: 3.39| Lv1 台湾 G  Netflix
+  server: hinet.rdns.link
+  port: 50027
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 7933:MbSz1L
+  obfs-param: cff407933.software-download.microsoft.com
+- name: 3.36|3.88| 香港免流01 2
   server: hk01.zz123.xyz
   port: 80
   type: vmess
@@ -261,103 +748,79 @@ proxies:
   ws-headers:
     Host: a.189.cn
   udp: true
-- name: 3.81| 香港免流02
-  server: hk02.zz123.xyz
-  port: 80
+- name: 3.30|2.71|直连 新加坡1 Netflix SG
   type: vmess
-  uuid: 4a4afac5-1d6c-3014-be38-a7f79a0b8e7a
-  alterId: 2
+  server: 165.22.61.210
+  port: 21888
+  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
+  alterId: 1
   cipher: auto
-  tls: false
-  skip-cert-verify: false
+  udp: true
   network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 3.49| Game 3 PPhttp
-  type: trojan
-  server: sg2-trojan.bonds.id
-  port: 443
-  password: 7d450710-f1ad-11eb-a226-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2c
-  - http/1.1
-  skip-cert-verify: true
-- name: 3.32| 香港3三网优化
-  server: 615hk2.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: dd1e127b-7068-384f-98ac-b0358163017f
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 615hk2.fans8.xyz
-  udp: true
-- name: 3.20| I6xTW彰化HiNetRC32128
-  server: yqy32128.china-cdn-net.com
-  port: 32128
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.14| 香港1三网优化
-  server: 909hk1.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: dd1e127b-7068-384f-98ac-b0358163017f
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 909hk1.fans8.xyz
-  udp: true
-- name: 3.14| I6xTW彰化HiNetRC32127
-  server: yqy32127.china-cdn-net.com
-  port: 32127
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.05| HTW高雄龍抬頭HiNetRC33121
-  server: yqy33121.china-cdn-net.com
-  port: 33121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.04| 日本JP 03
-  server: ly.pw999.fanssr.cn
-  port: 21111
-  type: ssr
+- name: 3.28| 美国 01
+  type: ss
+  server: 162.14.8.16
+  port: '9100'
   cipher: chacha20-ietf
-  password: download.microso
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 7474:DmsUoD
-  obfs-param: 1d0f87474.download.microsoft.com
+  password: AmyTelecom_11451419I981O
   udp: true
-- name: 2.97| ITW高雄龍抬頭HiNetRC33127
-  server: yqy33127.china-cdn-net.com
-  port: 33127
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.26| 美国 08
+  type: ss
+  server: 162.14.15.168
+  port: '9135'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.25| 美国 02
+  type: ss
+  server: 162.14.8.16
+  port: '9105'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.23| 美国 05
+  type: ss
+  server: 162.14.8.16
+  port: '9120'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.19| 美国 12
+  type: ss
+  server: 162.14.8.16
+  port: '9155'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.17|4203020937588
+  server: 42.0.30.209
+  port: 37588
+  type: ss
+  cipher: aes-256-gcm
+  password: kD9vkjnE6dsUzwQfvKkPkQAd
+- name: 3.17|2.03| ITW高雄龍抬頭HiNetRC33128
+  server: yqy33128.china-cdn-net.com
+  port: 33128
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -365,65 +828,36 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 2.95|台湾01
-  type: vmess
-  server: jike-cccn2.ddns-only.xyz
-  port: 39205
-  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
-  alterId: 2
-  cipher: auto
+- name: 3.17| 美国 04
+  type: ss
+  server: 162.14.8.16
+  port: '9115'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
   udp: true
-  network: ws
-  ws-path: /jike1
-  ws-headers:
-    Host: jike1-hinet03.ddns-only.xyz
-- name: 2.94|CN2509  448Mb
-  server: gb1.v2.zz.cn.fuckword.club
-  type: trojan
-  country: CN
-  port: 47836
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.88|RelayCNIN244
-  server: cu.newhost.cc
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.16|4.51| H3xTW台北HiNetRC31125
+  server: yqy31125.china-cdn-net.com
+  port: 31125
   type: ssr
-  country: CN
-  port: 10693
-  password: TuXJdt
   cipher: aes-256-cfb
+  password: http://cc.ax/
   protocol: auth_aes128_md5
-  protocol-param: 4647:thd4vu
-  obfs: tls1.2_ticket_auth
-  obfs-param: .microsoft.com
-- name: 2.80| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 2.76|CN2506  317Mb
-  server: 3.hk.zz.xxxxx.x-t-fuckword.network
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.12|2.70|CN2512  441Mb
+  server: 2.jp.zz.xxxxx.x-t-fuckword.network
   type: trojan
   country: CN
-  port: 36681
+  port: 36671
   password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 2.75|CN2511  941Mb
-  server: 3.jp.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36675
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.74| v2ray 马来西亚移动 Netflix
+- name: 3.09|2.74| v2ray 马来西亚移动 Netflix
   server: cm.cheapv2.xyz
   port: 26610
   type: vmess
@@ -437,32 +871,51 @@ proxies:
   ws-headers:
     Host: cm.cheapv2.xyz
   udp: true
-- name: 2.71|直连 新加坡1 Netflix SG
-  type: vmess
-  server: 165.22.61.210
-  port: 21888
-  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
-  alterId: 1
-  cipher: auto
+- name: 3.04|馃嚠馃嚦IN6314
+  server: 172.105.55.72
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 3.04| Lv1 台湾 F  Netflix
+  server: hinet.rdns.link
+  port: 50026
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 7933:MbSz1L
+  obfs-param: cff407933.software-download.microsoft.com
+- name: 3.00| I5xTW彰化HiNetRC32223
+  server: yqy32223.china-cdn-net.com
+  port: 32223
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 2.99| 泰国9322  910Mb
+  server: 27.131.164.94
+  port: 46412
+  type: ss
+  cipher: aes-256-gcm
+  password: GEqk9WGyybeyXW97YEdanDYs
   udp: true
-  network: ws
-- name: 2.70|CN2512  441Mb
-  server: 2.jp.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36671
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
+- name: 2.95|3.04| 日本JP 03
+  server: ly.pw999.fanssr.cn
+  port: 21111
+  type: ssr
+  cipher: chacha20-ietf
+  password: download.microso
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 7474:DmsUoD
+  obfs-param: 1d0f87474.download.microsoft.com
   udp: true
-- name: 2.67|CN2503  353Mb
-  server: hkt01.hk.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 56812
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.62|CN2508  651Mb
+- name: 2.91|2.62|CN2508  651Mb
   server: 3.sg.zz.xxxxx.x-t-fuckword.network
   type: trojan
   country: CN
@@ -470,115 +923,32 @@ proxies:
   password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 2.62| HTW高雄龍抬頭HiNetVC33131
-  server: yqy33131.china-cdn-net.com
-  port: 33131
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy33131.china-cdn-net.com
-- name: 2.60| 美国02 2
-  server: azhk.zz123.xyz
-  port: 54188
-  type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 2.56| 免费节点httpstmemftizi 台湾1中转Netflix解锁
-  server: zz1.futi.online
-  port: 32401
-  type: vmess
-  uuid: a8cbfe96-b132-4e94-96e3-61529b431133
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: twz1.futi.online
-  udp: true
-- name: 2.54| HTW高雄龍抬頭HiNetRC33227
-  server: yqy33227.china-cdn-net.com
-  port: 33227
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.51| ITW高雄龍抬頭HiNetVC33132
-  server: yqy33132.china-cdn-net.com
-  port: 33132
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy33132.china-cdn-net.com
-- name: 2.43|SG10433
-  server: 188.166.242.117
+- name: 2.87|2.75|CN2511  941Mb
+  server: 3.jp.zz.xxxxx.x-t-fuckword.network
   type: trojan
-  country: SG
-  port: 4443
-  password: 7x42LetRa0
+  country: CN
+  port: 36675
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 2.40| HTW高雄龍抬頭HiNetRC33125
-  server: yqy33125.china-cdn-net.com
-  port: 33125
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.33| 马来西亚1三网优化
-  server: 923my.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: dd1e127b-7068-384f-98ac-b0358163017f
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 923my.fans8.xyz
+- name: 2.87|2.94|CN2509  448Mb
+  server: gb1.v2.zz.cn.fuckword.club
+  type: trojan
+  country: CN
+  port: 47836
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
   udp: true
-- name: 2.29| ITW高雄龍抬頭HiNetRC33122
-  server: yqy33122.china-cdn-net.com
-  port: 33122
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.29| H3xTW台北HiNetVC31136
-  server: yqy31136.china-cdn-net.com
-  port: 31136
+- name: 2.85| 泰国9169 1054Mb
+  server: 27.131.164.94
+  port: 49514
+  type: ss
+  cipher: aes-256-gcm
+  password: dpGjA4GkzV28QPDYzEp94cTe
+  udp: true
+- name: 2.84| H3xTW彰化HiNetVC32135
+  server: yqy32135.china-cdn-net.com
+  port: 32135
   type: vmess
   uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
@@ -588,18 +958,72 @@ proxies:
   network: ws
   ws-path: /iso
   ws-headers:
-    Host: yqy31136.china-cdn-net.com
-- name: 2.26| H3xHKHKTBGPRC36123
-  server: yqy36123.china-cdn-net.com
-  port: 36123
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.24| 香港免流05 2
+    Host: yqy32135.china-cdn-net.com
+- server: 27.131.164.94
+  name: 2.81|泰国曼谷曼谷ss271311649444945
+  password: F5bKkb9ggkLx4JbQrbLn7LjZ
+  port: 44945
+  cipher: aes-256-gcm
+  type: ss
+- name: 2.80| 美国 06
+  type: ss
+  server: 162.14.15.168
+  port: '9125'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.79|2.76|CN2506  317Mb
+  server: 3.hk.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 36681
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.77| 美国 07
+  type: ss
+  server: 162.14.15.168
+  port: '9130'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.75|RO10015  858Mb
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 2.75| 美国 费利蒙欢迎订阅youtube8度科 9
+  server: 172.105.59.32
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.70| 泰国9227 1073Mb
+  server: 27.131.164.94
+  port: 34687
+  type: ss
+  cipher: aes-256-gcm
+  password: txmK9WhwP6WPhP7hqSBLVxpN
+  udp: true
+- name: 2.69| 泰国9305  790Mb
+  server: 27.131.164.94
+  port: 50232
+  type: ss
+  cipher: aes-256-gcm
+  password: CjchzpwdSjRtDjezYMwx9BKM
+  udp: true
+- name: 2.68|2.24| 香港免流05 2
   server: hk05.zz123.xyz
   port: 80
   type: vmess
@@ -613,17 +1037,124 @@ proxies:
   ws-headers:
     Host: a.189.cn
   udp: true
-- name: 2.23|CN2510  572Mb
-  server: hk1.v3.zz.cn.fuckword.club
-  type: trojan
-  country: CN
-  port: 47605
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+- name: 2.66|1.01| CN393
+  server: 139.155.22.227
+  type: vmess
+  country: ' CN'
+  port: 49110
+  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
+- name: 2.62|2.60| 美国02 2
+  server: azhk.zz123.xyz
+  port: 54188
+  type: vmess
+  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: azhk.zz123.xyz
   udp: true
-- name: 2.22| I6xHKHKTBGPRC36224
-  server: yqy36224.china-cdn-net.com
-  port: 36224
+- name: 2.61| 泰国9203  872Mb
+  server: 27.131.164.94
+  port: 31757
+  type: ss
+  cipher: aes-256-gcm
+  password: wj7nDCuNARchSeKNCN8VFK62
+  udp: true
+- name: 2.57| 泰国9264  517Mb
+  server: 27.131.164.94
+  port: 43893
+  type: ss
+  cipher: aes-256-gcm
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+  udp: true
+- server: 27.131.164.94
+  name: 2.57|泰国曼谷曼谷ss271311649444539
+  password: r6hDrkP4Et6EENTS8Qy7Tcmg
+  port: 44539
+  cipher: aes-256-gcm
+  type: ss
+- name: 2.56| 美国 费利蒙欢迎订阅youtube8度科 22
+  server: 45.79.122.28
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.56|1.60| 香港I02BGZ
+  server: gz.nat.beer.mypeter.top
+  port: 60610
+  type: vmess
+  uuid: 205c9676-57ec-31dd-b28b-21784535e18c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ss
+  ws-headers:
+    Host: inkhk02.mypeter.top
+  udp: true
+- name: 2.53|IN16
+  server: 45.79.122.28
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 2.52|IN14
+  server: 172.105.38.55
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 2.51| 美国 费利蒙欢迎订阅youtube8度科 27
+  server: 45.79.121.236
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 2.50| 美国 费利蒙欢迎订阅youtube8度科 33
+  server: 45.79.121.236
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.50|CYL科技
+  server: 27.131.164.94
+  port: 35371
+  type: ss
+  cipher: aes-256-gcm
+  password: pjeDhAJGuML8xKUxcjRqq6a9
+  udp: true
+- name: 2.47| Lv1 台湾 E  Netflix
+  server: hinet.rdns.link
+  port: 50025
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 7933:MbSz1L
+  obfs-param: cff407933.software-download.microsoft.com
+- name: 2.46| 泰国9175  475Mb
+  server: 27.131.164.94
+  port: 50225
+  type: ss
+  cipher: aes-256-gcm
+  password: J2M953QbkCvvzx3vYWdyBQ4K
+  udp: true
+- name: 2.45| I5xTW彰化HiNetRC32122
+  server: yqy32122.china-cdn-net.com
+  port: 32122
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -631,9 +1162,39 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 2.21| HTW高雄龍抬頭HiNetVC33237
-  server: yqy33237.china-cdn-net.com
-  port: 33237
+- name: 2.44| 泰国9202 1024Mb
+  server: 27.131.164.94
+  port: 47553
+  type: ss
+  cipher: aes-256-gcm
+  password: t2JnnFqjDMmzWurseJPgBsYY
+  udp: true
+- port: 48970
+  password: ZKEsXkFbUZ2z667YA8A7cEDP
+  type: ss
+  cipher: aes-256-gcm
+  server: 27.131.164.94
+  name: 2.42|泰国曼谷曼谷ss271311649448970
+- name: 2.42| githubcomfreefq  美国Linode数据中心 59
+  server: 172.105.55.72
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.42| 美国 10
+  type: ss
+  server: 162.14.15.168
+  port: '9145'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.41|2.51| ITW高雄龍抬頭HiNetVC33132
+  server: yqy33132.china-cdn-net.com
+  port: 33132
   type: vmess
   uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
@@ -643,8 +1204,366 @@ proxies:
   network: ws
   ws-path: /iso
   ws-headers:
-    Host: yqy33237.china-cdn-net.com
-- name: 2.20|US16304
+    Host: yqy33132.china-cdn-net.com
+- name: 2.40| 美国 费利蒙欢迎订阅youtube8度科 5
+  server: 172.105.42.160
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.39| 泰国9296  982Mb
+  server: 27.131.164.94
+  port: 50768
+  type: ss
+  cipher: aes-256-gcm
+  password: MgWc3J8tAHsZrVqg4BaBHmGs
+  udp: true
+- name: 2.37| 美国 03
+  type: ss
+  server: 162.14.8.16
+  port: '9110'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.36| 美国 费利蒙欢迎订阅youtube8度科 2
+  server: 172.105.55.72
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.36| 印度 孟买欢迎订阅youtube8度科技 2
+  server: 192.46.211.249
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.34| 美国 费利蒙欢迎订阅youtube8度科 37
+  server: 172.105.63.34
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.34|4579127972376
+  server: 45.79.127.97
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.34|2.67|CN2503  353Mb
+  server: hkt01.hk.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 56812
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.34| 美国 费利蒙欢迎订阅youtube8度科 30
+  server: 172.105.59.32
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.33| 御坂群专属 HK AZ中转 109备用机子别挤
+  server: azure-f4s-hk.transfer-xray.tk
+  port: 54235
+  type: vmess
+  uuid: 8ed48144-1f51-11ec-9c65-c772c4cbe9da
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /V6EbU1hL/
+  ws-headers:
+    Host: azure-f4s-hk.transfer-xray.tk
+- name: 2.32|MY NodeTest 5  2738 KB
+  server: 118.107.244.113
+  port: 3389
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+  speedtest: 280367
+- name: 2.32| 美国 费利蒙欢迎订阅youtube8度科 8
+  server: 172.105.55.72
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.30|172105421608091
+  server: 172.105.42.160
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 2.29| 美国 11
+  type: ss
+  server: 162.14.15.168
+  port: '9150'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.27| 美国 费利蒙欢迎订阅youtube8度科
+  server: 172.105.57.249
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.27| 美国 13
+  type: ss
+  server: 162.14.8.16
+  port: '9160'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.26| 泰国9115 1033Mb
+  server: 27.131.164.94
+  port: 37559
+  type: ss
+  cipher: aes-256-gcm
+  password: Qbt22F6JsxzFGqcsK5SaR8q3
+  udp: true
+- name: 2.23| 美国 费利蒙欢迎订阅youtube8度科 23
+  server: 45.79.122.28
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.23| 美国 09
+  type: ss
+  server: 162.14.15.168
+  port: '9140'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.22|加利福尼亚欢迎订阅youtube8度科技
+  server: 45.79.121.236
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 2.22|3.81| 香港免流02
+  server: hk02.zz123.xyz
+  port: 80
+  type: vmess
+  uuid: 4a4afac5-1d6c-3014-be38-a7f79a0b8e7a
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: a.189.cn
+  udp: true
+- server: 27.131.164.94
+  name: 2.22|泰国曼谷曼谷ss271311649432843
+  password: G35YSR2LFNEM9bq2dkjmKQRr
+  port: 32843
+  cipher: aes-256-gcm
+  type: ss
+- name: 2.21|IN13
+  server: 172.105.59.32
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 2.21| 美国 费利蒙欢迎订阅youtube8度科 15
+  server: 172.105.42.160
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- server: 27.131.164.100
+  name: 2.21|泰国曼谷曼谷ss2713116410043893
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+  port: 43893
+  cipher: aes-256-gcm
+  type: ss
+- name: 2.21|3.49| Game 3 PPhttp
+  type: trojan
+  server: sg2-trojan.bonds.id
+  port: 443
+  password: 7d450710-f1ad-11eb-a226-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2c
+  - http/1.1
+  skip-cert-verify: true
+- name: 2.21| 美国 费利蒙欢迎订阅youtube8度科 31
+  server: 172.105.38.55
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 2.20| 美国 费利蒙欢迎订阅youtube8度科 14
+  server: 45.79.127.97
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.19| US20191
+  server: 79.110.54.133
+  port: 38742
+  type: ss
+  cipher: aes-256-gcm
+  password: DKXfWwc4ebscpXTKpbt85rSH
+- server: 27.131.164.94
+  name: 2.18|泰国曼谷曼谷ss271311649435200
+  password: WBLAbN6AwtV5avBx73hFRLB3
+  port: 35200
+  cipher: aes-256-gcm
+  type: ss
+- name: 2.16| 美国 费利蒙欢迎订阅youtube8度科 7
+  server: 172.105.38.55
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.16| 美国 费利蒙欢迎订阅youtube8度科 6
+  server: 172.105.59.32
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.16| 美国 费利蒙欢迎订阅youtube8度科 26
+  server: 172.105.38.55
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.15|2.29| ITW高雄龍抬頭HiNetRC33122
+  server: yqy33122.china-cdn-net.com
+  port: 33122
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 2.15|1.40|4513513516tcp
+  server: 45.135.135.16
+  port: 11223
+  type: vmess
+  uuid: 5958e1e6-10af-11ec-9a8f-1aa60786834b
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.14|2.80| Game 1 PPhttp
+  type: trojan
+  server: id1-trojan.bonds.id
+  port: 443
+  password: 9e266b10-f204-11eb-96b8-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 2.14| NAT江西cn2 新加坡3 ZR公益 0x
+  server: jxcn2.xhbao.me
+  port: 54250
+  type: vmess
+  uuid: a9bd4a1f-4796-4016-9f95-f0fc778ada86
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: jxcn2.xhbao.me
+- name: 2.13|IN12
+  server: 172.105.42.160
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 2.13| 印度 孟买欢迎订阅youtube8度科技 5
+  server: 192.46.211.249
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- server: 27.131.164.94
+  name: 2.12|泰国曼谷曼谷ss271311649449653
+  password: Y9GcTPemHMKEkrfGQPJqFDNr
+  port: 49653
+  cipher: aes-256-gcm
+  type: ss
+- name: 2.12| 泰国9198  751Mb
+  server: 27.131.164.94
+  port: 47861
+  type: ss
+  cipher: aes-256-gcm
+  password: LJcChRsGQRhywrtXUU55TLTu
+  udp: true
+- name: 2.10|1.95| ITW高雄龍抬頭HiNetVC33138
+  server: yqy33138.china-cdn-net.com
+  port: 33138
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy33138.china-cdn-net.com
+- name: 2.10| 美国 费利蒙欢迎订阅youtube8度科 13
+  server: 172.105.59.32
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.09| 美国 费利蒙欢迎订阅youtube8度科 19
+  server: 45.79.122.28
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.06| 印度 孟买欢迎订阅youtube8度科技 3
+  server: 192.46.211.249
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.01| 美国 费利蒙欢迎订阅youtube8度科 24
+  server: 45.79.127.97
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- port: 2375
+  password: faBAoD54k87UJG7
+  type: ss
+  cipher: aes-256-gcm
+  server: 172.105.63.34
+  name: 2.01|德国法兰克福法兰克福ss17210563342375
+- name: 2.01| 印度 孟买欢迎订阅youtube8度科技
+  server: 192.46.211.249
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.98|2.20|US16304
   server: 66.42.107.33
   type: vmess
   country: US
@@ -657,19 +1576,40 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.17| H3xTW彰化HiNetRC32125
-  server: yqy32125.china-cdn-net.com
-  port: 32125
+- name: 1.98| 美国 3
+  server: 84.17.41.83
+  port: 43893
+  type: ss
+  cipher: aes-256-gcm
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+- name: 1.98|2.88|RelayCNIN244
+  server: cu.newhost.cc
   type: ssr
+  country: CN
+  port: 10693
+  password: TuXJdt
   cipher: aes-256-cfb
-  password: http://cc.ax/
   protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.16| I5xTW台北HiNetVC31131
-  server: yqy31131.china-cdn-net.com
-  port: 31131
+  protocol-param: 4647:thd4vu
+  obfs: tls1.2_ticket_auth
+  obfs-param: .microsoft.com
+- name: 1.97|1.98| 德国01
+  server: azhk.zz123.xyz
+  port: 46101
+  type: vmess
+  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: azhk.zz123.xyz
+  udp: true
+- name: 1.95|2.21| HTW高雄龍抬頭HiNetVC33237
+  server: yqy33237.china-cdn-net.com
+  port: 33237
   type: vmess
   uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
@@ -679,61 +1619,60 @@ proxies:
   network: ws
   ws-path: /iso
   ws-headers:
-    Host: yqy31131.china-cdn-net.com
-- name: 2.15|US16330
-  server: 150.230.43.190
+    Host: yqy33237.china-cdn-net.com
+- name: 1.94| US20192
+  server: 79.110.54.133
+  port: 49126
+  type: ss
+  cipher: aes-256-gcm
+  password: wrCaGtrUbzeRqQLdc8Kmk3Nd
+- name: 1.94| 美国 费利蒙欢迎订阅youtube8度科 25
+  server: 45.79.122.28
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.93| 美国 费利蒙欢迎订阅youtube8度科 4
+  server: 172.105.42.160
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- port: 7306
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 167.88.63.74
+  name: 1.92|美国佐治亚亚特兰大ss1678863747306
+- name: 1.91|御坂群专属永久维护备用机子别挤
+  server: zzr.zzzr.ltd
+  port: 2053
   type: vmess
-  country: US
+  uuid: a737264c-2bea-11ec-83c0-414353016dec
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /8qgBdhe3/
+  ws-headers:
+    Host: zzr.zzzr.ltd
+- name: 1.91|DE3284
+  server: v103.v2dns.xyz
+  type: vmess
+  country: DE
   port: 80
-  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
-  alterId: 16
+  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  alterId: 2
   cipher: auto
   network: ws
-  ws-path: /BEN
-  servername: 150.230.43.190
+  ws-path: /v1032N9rN0yPy
+  servername: gd.189.cn
   ws-headers:
-    HOST: 150.230.43.190
+    HOST: gd.189.cn
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.13| 免费节点httpstmemftizi  美国2中转
-  server: zz1.futi.online
-  port: 52101
-  type: vmess
-  uuid: a8cbfe96-b132-4e94-96e3-61529b431133
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: us02.futi.online
-  udp: true
-- name: 2.05| ITW高雄龍抬頭HiNetVC33137
-  server: yqy33137.china-cdn-net.com
-  port: 33137
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy33137.china-cdn-net.com
-- name: 2.03| ITW高雄龍抬頭HiNetRC33128
-  server: yqy33128.china-cdn-net.com
-  port: 33128
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.00|4566157195tcp
+- name: 1.90|2.00|4566157195tcp
   server: 45.66.157.195
   port: 12233
   type: vmess
@@ -741,7 +1680,45 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.99|RelayAUAU287
+- name: 1.90| 美国洛杉矶欢迎订阅youtube8度科 40
+  server: 167.88.63.50
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.89| httpsgitiov9999 圣何塞 7
+  server: 107.148.200.229
+  port: 51267
+  type: vmess
+  uuid: dd6fc0ba-10ac-11ec-bb46-00163c0ad178
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.89|4579127977306
+  server: 45.79.127.97
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.88| httpsgitiov9999 莫斯科
+  server: 45.144.3.208
+  port: 59785
+  type: vmess
+  uuid: 5a4b09d8-168f-4ea7-968f-f5c3b5822ba8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 45.144.3.208
+- name: 1.85| 美国洛杉矶欢迎订阅youtube8度科 3
+  server: 167.88.63.107
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.85|1.99|RelayAUAU287
   server: 168.138.28.215
   type: vmess
   country: AU
@@ -757,284 +1734,13 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.98| 德国01
-  server: azhk.zz123.xyz
-  port: 46101
-  type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 1.95| ITW高雄龍抬頭HiNetVC33138
-  server: yqy33138.china-cdn-net.com
-  port: 33138
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy33138.china-cdn-net.com
-- name: 1.84|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.83|US16346
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.81|JP7022  840Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.71| cfmemcomUS美国32
-  server: 107.167.20.188
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /path/323127100515
-  ws-headers:
-    Host: www.19036987.xyz
-  udp: true
-- name: 1.70|DE3261 1263Mb
-  server: 194.195.124.174
-  type: trojan
-  country: DE
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.68| cfmemcomUS美国25
-  server: 64.32.13.3
-  port: 443
-  type: vmess
-  uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /path/323127100515
-  ws-headers:
-    Host: www.12001759.xyz
-  udp: true
-- name: 1.61|GB4893 5611Mb
-  server: 138.68.179.78
-  type: trojan
-  country: GB
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.60| 香港I02BGZ
-  server: gz.nat.beer.mypeter.top
-  port: 60610
-  type: vmess
-  uuid: 205c9676-57ec-31dd-b28b-21784535e18c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ss
-  ws-headers:
-    Host: inkhk02.mypeter.top
-  udp: true
-- name: 1.58|US16320
-  server: awsrb2.mooncloud.bike
-  type: vmess
-  country: US
-  port: 10022
-  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.57|DE3259 3718Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.55|CA2144 13804Mb
-  server: 138.197.162.114
-  type: trojan
-  country: CA
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.51|US16321
-  server: aws.mooncloud.bike
-  type: vmess
-  country: US
-  port: 10021
-  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- alterId: 1
-  cipher: auto
-  name: 1.50|1012oslook中国香港中国台湾CNChinaChangning可能是中转节点24
-  network: tcp
-  port: 10018
-  server: us1.np.qjnodeip.xyz
-  tls: false
-  type: vmess
-  uuid: 02c05e4c-3092-41e3-be4b-b49e9acbab21
-  ws-path: /
-- name: 1.49|RO9933
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.48| HTW高雄龍抬頭HiNetVC33135
-  server: yqy33135.china-cdn-net.com
-  port: 33135
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy33135.china-cdn-net.com
-- name: 1.47| H25xTW彰化HiNetVC32132
-  server: yqy32132.china-cdn-net.com
-  port: 32132
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy32132.china-cdn-net.com
-- name: 1.44|俄罗斯01
-  type: vmess
-  server: jike-shlt.ddns-only.xyz
-  port: 39307
-  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
-  alterId: 2
-  cipher: auto
-  udp: true
-  network: ws
-  ws-path: /jike1
-  ws-headers:
-    Host: jike1-ru04.ddns-only.xyz
-- name: 1.43|  292Mb
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.43|663 1023Mb
-  server: t4.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  sni: t4.ssrsub.com
-  udp: true
-- name: 1.42|659 10893Mb
-  server: t6.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
-  sni: t6.ssrsub.com
-  udp: true
-- name: 1.42| cfmemcomRU俄罗斯联邦1
-  server: ruml.jjyun.ren
-  port: 80
-  type: vmess
-  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: ruml.jjyun.ren
-- name: 1.41|RelayAUDE286
-  server: 1.0.0.0
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.40|4513513516tcp
-  server: 45.135.135.16
-  port: 11223
-  type: vmess
-  uuid: 5958e1e6-10af-11ec-9a8f-1aa60786834b
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.40| H25xTW彰化HiNetRC32121
-  server: yqy32121.china-cdn-net.com
-  port: 32121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 1.39|RelayKRNL980
+- name: 1.84| 悉尼欢迎订阅youtube8度科技 11
+  server: 172.105.174.182
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.83|1.39|RelayKRNL980
   server: kr02.uuv2.uk
   type: vmess
   country: KR
@@ -1051,93 +1757,22 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.39|216105168138tcp
-  server: 216.105.168.138
-  port: 10964
-  type: vmess
-  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.38|DE3258 5374Mb
-  server: 139.59.209.152
+- name: 1.82|1.84|trojan
   type: trojan
-  country: DE
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.38|259214249tcp
-  server: 2.59.214.249
-  port: 33445
-  type: vmess
-  uuid: aaad4b5a-1f4f-11ec-a856-82b57278959a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.37|US16314
-  server: nn-ssr24.feiclouddd.me
-  type: vmess
-  country: US
+  server: 65.49.196.246
   port: 443
-  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
-  alterId: 60
-  cipher: auto
-  network: ws
-  ws-path: /dsafasdf
-  servername: nn-ssr24.feiclouddd.me
-  ws-headers:
-    HOST: nn-ssr24.feiclouddd.me
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- alterId: 10
-  cipher: auto
-  name: 1.34|1012oslook英国GBUnited KiongdomLondon73
-  network: ws
-  port: 88
-  server: ukml.52jjyun.top
-  tls: false
-  type: vmess
-  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
-  ws-path: /jjyun
-- name: 1.30|NL7787
-  server: 178.62.201.120
-  type: trojan
-  country: NL
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.28| I5xTW彰化HiNetVC32233
-  server: yqy32233.china-cdn-net.com
-  port: 32233
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy32233.china-cdn-net.com
-- name: 1.27| 美国 圣路易斯  公益  湘北出口
-  server: apn-e.connect-node.xyz
-  port: 45301
-  type: vmess
-  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /web
-  ws-headers:
-    Host: usa-12.connect-node.xyz
-  udp: true
-- name: 1.27| 新加坡三网优化
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.82| 美国 费利蒙欢迎订阅youtube8度科 10
+  server: 172.105.42.160
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.82|1.27| 新加坡三网优化
   server: 1009sg.fans8.xyz
   port: 80
   type: vmess
@@ -1151,81 +1786,115 @@ proxies:
   ws-headers:
     Host: 1009sg.fans8.xyz
   udp: true
-- name: 1.26|649  712Mb
-  server: v4.ssrsub.com
+- name: 1.81| 悉尼欢迎订阅youtube8度科技 8
+  server: 172.105.174.182
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.80| 美国洛杉矶欢迎订阅youtube8度科 38
+  server: 167.88.63.61
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.80|3.14| I6xTW彰化HiNetRC32127
+  server: yqy32127.china-cdn-net.com
+  port: 32127
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.77| httpsgitiov9999 圣何塞 8
+  server: 107.148.200.123
+  port: 52025
   type: vmess
-  port: 158
-  udp: true
-  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v4.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: 1.24|US16324
-  server: 128.14.157.112
-  type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: en.tgchannels.org/channel/vpnpool
-  ws-headers:
-    HOST: en.tgchannels.org/channel/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.22| 菲律宾 马尼拉  公益  湘北出口
-  server: apn-e.connect-node.xyz
-  port: 45303
-  type: vmess
-  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /web
-  ws-headers:
-    Host: phi-20.connect-node.xyz
-  udp: true
-- name: 1.21|US16424
-  server: 139.177.197.51
+  tls: false
+- name: 1.76|1.83|US16346
+  server: 72.167.45.6
   type: trojan
   country: US
-  port: 1443
-  password: 7x42LetRa0
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.21| us感谢关注youtube8度科技 2
-  server: nn-ssr4.feiclouddd.me
-  port: 443
-  type: vmess
-  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
-  alterId: 60
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sadfasdf
-  ws-headers:
-    Host: nn-ssr4.feiclouddd.me
-- name: 1.21|NL7794
-  server: 185.171.120.144
+- port: 33148
+  password: CMduaFXddcQbwNAAs7xFDnc8
+  type: ss
+  cipher: aes-256-gcm
+  server: 79.110.54.133
+  name: 1.76|美国加利福尼亚0ss791105413333148
+- name: 1.76| US20188
+  server: 79.110.54.133
+  port: 34815
+  type: ss
+  cipher: aes-256-gcm
+  password: LkFAzkzXkSCRYa2CsRdL8cGb
+- name: 1.74| 美国 费利蒙欢迎订阅youtube8度科 36
+  server: 45.79.121.236
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.74| 悉尼欢迎订阅youtube8度科技
+  server: 172.105.172.41
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.73|PoolIN15
+  server: 137.59.52.107
+  port: 50168
+  type: ss
+  cipher: aes-256-gcm
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+- name: 1.73| US20211
+  server: 79.110.54.133
+  port: 33998
+  type: ss
+  cipher: aes-256-gcm
+  password: NHwQTPLCfaTMSqTnU3mjcSxe
+- name: 1.73|US NodeTest 100  17124 KB
+  server: 199.10.64.243
+  port: 33992
+  type: ss
+  cipher: aes-256-gcm
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  udp: true
+  speedtest: 175347
+- name: 1.72|1.81|JP7022  840Mb
+  server: 5.183.177.111
   type: trojan
-  country: NL
+  country: JP
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.17|JP7012  050Mb
+- name: 1.71| 美国洛杉矶欢迎订阅youtube8度科 4
+  server: 167.88.63.60
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.71| 美国洛杉矶欢迎订阅youtube8度科 39
+  server: 167.88.63.28
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.71| githubcomfreefq  北美地区  57
+  server: 134.195.196.163
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.70|1.17|JP7012  050Mb
   server: 146.56.118.208
   type: vmess
   country: JP
@@ -1238,11 +1907,444 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.13| cfmemcomUS美国4
-  server: 67.21.92.179
+- name: 1.70| 美国欢迎订阅youtube8度科技
+  server: 134.195.196.110
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.70|1.43|  292Mb
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- port: 8090
+  password: PCnnH6SQSnfoS27
+  type: ss
+  cipher: aes-256-gcm
+  server: 167.88.63.89
+  name: 1.69|美国佐治亚亚特兰大ss1678863898090
+- name: 1.68|githubcomfreefq  瑞典  60
+  server: 167.88.63.107
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.67| githubcomfreefq  北美地区  56
+  server: 134.195.198.178
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.67| 美国洛杉矶欢迎订阅youtube8度科 35
+  server: 167.88.63.107
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.66|1.61|GB4893 5611Mb
+  server: 138.68.179.78
+  type: trojan
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.66| 悉尼欢迎订阅youtube8度科技 9
+  server: 172.105.172.41
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- port: 33992
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  type: ss
+  cipher: aes-256-gcm
+  server: 193.29.107.125
+  name: 1.66|丹麦哥本哈根0ss1932910712533992
+- name: 1.66| 澳大利亚欢迎订阅youtube8度科技 2
+  server: 172.105.174.182
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.66| 英国伦敦欢迎订阅youtube8度科技 15
+  server: 193.118.60.179
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.65| 美国洛杉矶欢迎订阅youtube8度科 29
+  server: 167.88.63.74
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.65| US20230
+  server: 79.110.54.133
+  port: 46642
+  type: ss
+  cipher: aes-256-gcm
+  password: gYL83DQWXuDbxmZAVVtUTXaK
+- name: 1.65| 美国 费利蒙欢迎订阅youtube8度科 38
+  server: 172.104.206.241
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.65|NL7848 5813Mb
+  server: ned-server-01.selfupay.com
+  type: trojan
+  country: NL
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- port: 7307
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 134.195.196.81
+  name: 1.64|美国00ss134195196817307
+- name: 1.64| githubcomfreefq  美国华盛顿Cogent通信公司 24
+  server: 38.107.226.149
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.64| 美国 费利蒙欢迎订阅youtube8度科 11
+  server: 172.105.38.55
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.63| 悉尼欢迎订阅youtube8度科技 10
+  server: 172.105.172.37
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.63|US16479
+  server: 150.230.45.118
+  type: vmess
+  country: US
+  port: 80
+  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 150.230.45.118
+  ws-headers:
+    HOST: 150.230.45.118
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.63|CA08
+  server: 198.57.27.225
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.62|US  Las Vegas 1
+  server: 79.110.54.133
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.60|3.32| 香港3三网优化
+  server: 615hk2.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 615hk2.fans8.xyz
+  udp: true
+- name: 1.60|BE  Antwerp 4
+  server: 188.95.55.119
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- name: 1.60|IN  Mumbai
+  server: 129.227.219.24
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- name: 1.60|githubcomfreefq  瑞典  51
+  server: 167.88.63.99
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.60|githubcomfreefq  瑞典  29
+  server: 167.88.63.28
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.59|193118601662375
+  server: 193.118.60.166
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- port: 45329
+  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+  type: ss
+  cipher: aes-256-gcm
+  server: 79.110.54.133
+  name: 1.59|美国加利福尼亚0ss791105413345329
+- port: 2376
+  password: faBAoD54k87UJG7
+  type: ss
+  cipher: aes-256-gcm
+  server: 134.195.196.71
+  name: 1.59|美国00ss134195196712376
+- name: 1.59| 英国伦敦欢迎订阅youtube8度科技 38
+  server: 193.118.60.174
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.58| githubcomfreefq  美国华盛顿Cogent通信公司 52
+  server: 38.107.226.146
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- port: 7307
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 193.118.60.179
+  name: 1.58|英国伦敦伦敦ss193118601797307
+- name: 1.58|RO10010  951Mb
+  server: hk-server-01.selfupay.com
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.58| 英国伦敦欢迎订阅youtube8度科技 30
+  server: 193.118.60.165
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.57|4579127978091
+  server: 45.79.127.97
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.56| 悉尼欢迎订阅youtube8度科技 4
+  server: 172.105.172.41
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.56|8417358343893
+  server: 84.17.35.83
+  port: 43893
+  type: ss
+  cipher: aes-256-gcm
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+- name: 1.56| githubcomfreefq  北美地区  39
+  server: 134.195.198.252
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.56| githubcomfreefq  北美地区  35
+  server: 134.195.196.110
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.55| 德国 黑森欢迎订阅youtube8度科技
+  server: 145.239.1.137
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- port: 48938
+  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
+  type: ss
+  cipher: aes-256-gcm
+  server: 66.115.177.143
+  name: 1.55|美国佐治亚亚特兰大ss6611517714348938
+- name: 1.55|1.39|216105168138tcp
+  server: 216.105.168.138
+  port: 10964
+  type: vmess
+  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.55| 美国洛杉矶欢迎订阅youtube8度科 34
+  server: 38.107.226.149
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.55| 美国欢迎订阅youtube8度科技 10
+  server: 198.57.27.218
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.55| 洛杉矶欢迎订阅youtube8度科技 37
+  server: 172.99.190.7
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.54|172105572492375
+  server: 172.105.57.249
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.54|5177532002375
+  server: 51.77.53.200
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.54| 英国伦敦欢迎订阅youtube8度科技 16
+  server: 193.118.60.179
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.54|LU  Luxembourg 2
+  server: 95.85.66.40
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- name: 1.53| 英国伦敦欢迎订阅youtube8度科技 33
+  server: 193.118.60.175
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.53|githubcomfreefq  比利时  69
+  server: 89.249.73.197
+  port: 49396
+  type: ss
+  cipher: aes-256-gcm
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+- name: 1.53| 美国欢迎订阅youtube8度科技 18
+  server: 134.195.196.163
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- port: 8091
+  password: PCnnH6SQSnfoS27
+  type: ss
+  cipher: aes-256-gcm
+  server: 134.195.196.165
+  name: 1.53|美国00ss1341951961658091
+- name: 1.53| 悉尼欢迎订阅youtube8度科技 7
+  server: 172.105.167.214
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.53| 美国洛杉矶欢迎订阅youtube8度科 8
+  server: 167.88.63.108
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- port: 8090
+  password: PCnnH6SQSnfoS27
+  type: ss
+  cipher: aes-256-gcm
+  server: 198.57.27.241
+  name: 1.53|加拿大安大略多伦多ss19857272418090
+- name: 1.52| 798Mb
+  server: 193.108.118.34
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.52|1.57|DE3259 3718Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.52|Pool01
+  server: 85.10.56.192
+  port: 40093
+  type: ss
+  cipher: aes-256-gcm
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
+- name: 1.52| 波兰 华沙欢迎订阅youtube8度科技 2
+  server: 51.77.53.200
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.52| 洛杉矶欢迎订阅youtube8度科技 30
+  server: 172.99.190.205
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.52| githubcomfreefq  英国  19
+  server: 193.118.60.165
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.51| 悉尼欢迎订阅youtube8度科技 15
+  server: 172.105.172.41
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.51|654 5858Mb
+  server: v1.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v1.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.51|1.68| cfmemcomUS美国25
+  server: 64.32.13.3
   port: 443
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5
   alterId: 64
   cipher: auto
   tls: true
@@ -1250,38 +2352,273 @@ proxies:
   network: ws
   ws-path: /path/323127100515
   ws-headers:
-    Host: www.41438522.xyz
+    Host: www.12001759.xyz
   udp: true
-- name: 1.13| I5xTW彰化HiNetVC32131
-  server: yqy32131.china-cdn-net.com
-  port: 32131
+- name: 1.51| 洛杉矶欢迎订阅youtube8度科技 63
+  server: 172.99.190.139
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.51| 洛杉矶欢迎订阅youtube8度科技 25
+  server: 172.99.190.57
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.51|1.03| cfmemcomUS美国19
+  server: 23.234.223.28
+  port: 443
   type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
+  uuid: e52db663-720b-4894-8235-dac718e65e3f
+  alterId: 64
   cipher: auto
-  tls: false
-  skip-cert-verify: false
+  tls: true
   network: ws
-  ws-path: /iso
+  ws-path: /path/323127100515
   ws-headers:
-    Host: yqy32131.china-cdn-net.com
-- name: 1.09|JP6948  609Mb
-  server: 146.56.187.13
+    Host: www.68080962.xyz
+- name: 1.51| githubcomfreefq  英国  13
+  server: 193.118.60.171
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.50| githubcomfreefq  北美地区  37
+  server: 198.57.27.241
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.50|894575149396
+  server: 89.45.7.51
+  port: 49396
+  type: ss
+  cipher: aes-256-gcm
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+- name: 1.50|3.20| I6xTW彰化HiNetRC32128
+  server: yqy32128.china-cdn-net.com
+  port: 32128
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.50|1.21|NL7794
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.50| 南非 约翰内斯堡欢迎订阅youtube8度科技
+  server: 172.107.233.234
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.50|RelayGBGB2198
+  server: ukdll.52jjyun.top
   type: vmess
-  country: JP
+  country: GB
   port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
+  uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42
+  alterId: 10
   cipher: auto
   network: ws
-  ws-path: /
+  ws-path: /jjyun
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.08|RelayUSDE4156
-  server: 172.67.209.58
+- name: 1.50| 法国 上法兰西欢迎订阅youtube8度科技 2
+  server: 5.39.70.138
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.50|172991902328091
+  server: 172.99.190.232
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.49|PL  Warsaw 3
+  server: 5.253.206.69
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- name: 1.49|RO10014 3171Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.49| 英国GB3
+  server: 193.118.60.166
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.49|githubcomfreefq  瑞典  38
+  server: 167.88.63.108
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- port: 7306
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 193.118.60.167
+  name: 1.48|英国伦敦伦敦ss193118601677306
+- name: 1.47| 波兰 华沙欢迎订阅youtube8度科技 3
+  server: 51.77.53.200
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- port: 38742
+  password: DKXfWwc4ebscpXTKpbt85rSH
+  type: ss
+  cipher: aes-256-gcm
+  server: 64.44.42.60
+  name: 1.47|美国伊利诺伊芝加哥ss6444426038742
+- name: 1.47| githubcomfreefq  北美地区  36
+  server: 134.195.198.250
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.47| 美国洛杉矶欢迎订阅youtube8度科技
+  server: 38.107.226.149
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.47| 英国伦敦欢迎订阅youtube8度科技 13
+  server: 193.118.60.174
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.47| 美国洛杉矶欢迎订阅youtube8度科 6
+  server: 167.88.63.74
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.46|NL7851 5882Mb
+  server: 89.31.127.151
+  type: trojan
+  country: NL
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- port: 7307
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 193.118.60.177
+  name: 1.46|英国伦敦伦敦ss193118601777307
+- name: 1.46| 洛杉矶欢迎订阅youtube8度科技 2
+  server: 172.99.190.230
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.45| githubcomfreefq  北美地区  28
+  server: 134.195.196.147
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.45| githubcomfreefq  北美地区  31
+  server: 134.195.198.95
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.45|美国04
+  server: 64.44.42.60
+  port: 31944
+  type: ss
+  cipher: aes-256-gcm
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+- name: 1.44| httpsgitiov9999 莫斯科TTK 2
+  server: 45.144.178.97
+  port: 32231
   type: vmess
-  country: US
+  uuid: 57a951d4-1c0b-11ec-8be6-365aa404540b
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.44|US NodeTest 42  21927 KB
+  server: 64.44.42.60
+  port: 45329
+  type: ss
+  cipher: aes-256-gcm
+  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+  udp: true
+  speedtest: 224534
+- name: 1.44| 英国伦敦欢迎订阅youtube8度科技 12
+  server: 193.118.60.167
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.44|PoolIT20
+  server: 82.102.26.93
+  port: 42185
+  type: ss
+  cipher: aes-256-gcm
+  password: FaTG4zALZru72gxjgSHQ7Jdh
+- name: 1.43|RS  Belgrade 3
+  server: 152.89.160.148
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- name: 1.43| 美国洛杉矶欢迎订阅youtube8度科
+  server: 38.107.226.159
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.42|1.30|NL7787
+  server: 178.62.201.120
+  type: trojan
+  country: NL
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.42|US NodeTest 92  17778 KB
+  server: 185.102.217.195
+  port: 50168
+  type: ss
+  cipher: aes-256-gcm
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  udp: true
+  speedtest: 182044
+- name: 1.42| 美国欢迎订阅youtube8度科技 7
+  server: 198.57.27.218
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.42|1.41|RelayAUDE286
+  server: 1.0.0.0
+  type: vmess
+  country: AU
   port: 443
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   alterId: 64
@@ -1295,19 +2632,427 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.03| cfmemcomUS美国19
-  server: 23.234.223.28
-  port: 443
+- name: 1.42|Pool03
+  server: 66.115.177.143
+  port: 35294
+  type: ss
+  cipher: aes-256-gcm
+  password: J9Y2ncrdPEC38gwydNFFGBna
+- name: 1.42|巴塞罗那欢迎订阅youtube8度科技 7
+  server: 172.107.233.234
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.42| 美国欢迎订阅youtube8度科技 96
+  server: 198.57.27.233
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.41|511593061810
+  server: 51.159.30.61
+  port: 810
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 1.41|1.38|259214249tcp
+  server: 2.59.214.249
+  port: 33445
   type: vmess
-  uuid: e52db663-720b-4894-8235-dac718e65e3f
-  alterId: 64
+  uuid: aaad4b5a-1f4f-11ec-a856-82b57278959a
+  alterId: 0
   cipher: auto
-  tls: true
+  tls: false
+- name: 1.41|4579127978090
+  server: 45.79.127.97
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.41|1.42|659 10893Mb
+  server: t6.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  sni: t6.ssrsub.com
+  udp: true
+- name: 1.41|SE10413  326Mb
+  server: 138.3.220.41
+  type: vmess
+  country: SE
+  port: 80
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
+  alterId: 1
+  cipher: auto
   network: ws
-  ws-path: /path/323127100515
-  ws-headers:
-    Host: www.68080962.xyz
-- name: 1.02|US16306
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.41|IT19
+  server: 82.102.26.94
+  port: 38742
+  type: ss
+  cipher: aes-256-gcm
+  password: DKXfWwc4ebscpXTKpbt85rSH
+- name: 1.40|1.49|RO9933
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.40| 美国富兰克林欢迎订阅youtube8度科技 2
+  server: 193.108.118.34
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.40| 英国伦敦欢迎订阅youtube8度科技 25
+  server: 193.118.60.177
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.40|193118601757307
+  server: 193.118.60.175
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.40| 英国伦敦欢迎订阅youtube8度科技 11
+  server: 193.118.60.166
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.40| 波兰 华沙欢迎订阅youtube8度科技 7
+  server: 51.77.52.206
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.39|RO NodeTest 78  125 MB
+  server: 193.29.107.125
+  port: 40093
+  type: ss
+  cipher: aes-256-gcm
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
+  udp: true
+  speedtest: 1310720
+- name: 1.39| 美国洛杉矶欢迎订阅youtube8度科 58
+  server: 167.88.63.74
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.39| githubcomfreefq  北美地区  25
+  server: 198.57.27.233
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.39|PoolAT06
+  server: 5.253.207.51
+  port: 33992
+  type: ss
+  cipher: aes-256-gcm
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+- name: 1.39| 洛杉矶欢迎订阅youtube8度科技 20
+  server: 172.99.190.246
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.38| 美国欢迎订阅youtube8度科技 15
+  server: 134.195.196.163
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.38| 英国伦敦欢迎订阅youtube8度科技 7
+  server: 193.118.60.171
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.37| 洛杉矶欢迎订阅youtube8度科技 39
+  server: 172.99.190.139
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.37| 悉尼欢迎订阅youtube8度科技 12
+  server: 172.105.167.214
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- alterId: 10
+  cipher: auto
+  name: 1.37|1.34|1012oslook英国GBUnited KiongdomLondon73
+  network: ws
+  port: 88
+  server: ukml.52jjyun.top
+  tls: false
+  type: vmess
+  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
+  ws-path: /jjyun
+- name: 1.37|CA2759
+  server: 134.195.196.154
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- port: 7306
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 193.118.60.176
+  name: 1.36|英国伦敦伦敦ss193118601767306
+- name: 1.36| 美国欢迎订阅youtube8度科技 17
+  server: 134.195.196.163
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.36|185225289331944
+  server: 185.225.28.93
+  port: 31944
+  type: ss
+  cipher: aes-256-gcm
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+- name: 1.35| 美国洛杉矶欢迎订阅youtube8度科 2
+  server: 167.88.63.108
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.35| 洛杉矶欢迎订阅youtube8度科技 60
+  server: 172.99.190.35
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.35|NO  Oslo 3
+  server: 91.219.215.38
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.35|BE NodeTest 40  22069 KB
+  server: 89.249.73.197
+  port: 33992
+  type: ss
+  cipher: aes-256-gcm
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  udp: true
+  speedtest: 225986
+- name: 1.35|巴塞罗那欢迎订阅youtube8度科技 6
+  server: 172.107.233.230
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.35| CA2013 7536Mb
+  server: v9.ssrsub.com
+  type: vmess
+  country: ' CA'
+  port: 158
+  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.35| 英国伦敦欢迎订阅youtube8度科技 9
+  server: 193.118.60.171
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.35| US19547
+  server: 66.115.177.143
+  port: 31944
+  type: ss
+  cipher: aes-256-gcm
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+- name: 1.34| 美国欢迎订阅youtube8度科技 11
+  server: 198.57.27.233
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.34| 罗马尼亚 布加勒斯特4感谢关注youtube8度科技
+  server: 91.90.123.115
+  port: 37588
+  type: ss
+  cipher: aes-256-gcm
+  password: kD9vkjnE6dsUzwQfvKkPkQAd
+- name: 1.34| githubcomfreefq  美国  58
+  server: 172.99.190.230
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- port: 8090
+  password: PCnnH6SQSnfoS27
+  type: ss
+  cipher: aes-256-gcm
+  server: 134.195.196.71
+  name: 1.34|美国00ss134195196718090
+- name: 1.34|1.70|DE3261 1263Mb
+  server: 194.195.124.174
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- port: 7306
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 172.99.190.149
+  name: 1.34|美国康涅狄格0ss172991901497306
+- name: 1.34| githubcomfreefq  罗马尼亚  68
+  server: 193.29.107.123
+  port: 31944
+  type: ss
+  cipher: aes-256-gcm
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
+- name: 1.33|RU10288 1106Mb
+  server: t3.ssrsub.com
+  type: trojan
+  country: RU
+  port: 8443
+  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
+  skip-cert-verify: true
+  udp: true
+- name: 1.33|githubcomfreefq  瑞典  62
+  server: 167.88.63.82
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.33| 德国 黑森欢迎订阅youtube8度科技 3
+  server: 145.239.1.137
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.33|SE  Stockholm 2
+  server: 185.76.9.52
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- name: 1.33|RO  Bucharest 2
+  server: 185.102.217.195
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.32| 罗马尼亚 布加勒斯特感谢关注youtube8度科技
+  server: 91.90.123.115
+  port: 33992
+  type: ss
+  cipher: aes-256-gcm
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+- name: 1.32| 美国欢迎订阅youtube8度科技 20
+  server: 134.195.196.81
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.32| 美国欢迎订阅youtube8度科技 82
+  server: 134.195.196.165
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- port: 43893
+  password: YyCBeDdYX4cadHpCkkmdJLq8
+  type: ss
+  cipher: aes-256-gcm
+  server: 66.115.177.141
+  name: 1.32|美国佐治亚亚特兰大ss6611517714143893
+- name: 1.32|2.97| ITW高雄龍抬頭HiNetRC33127
+  server: yqy33127.china-cdn-net.com
+  port: 33127
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.31| 洛杉矶欢迎订阅youtube8度科技 17
+  server: 172.99.190.153
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.31| 美国洛杉矶欢迎订阅youtube8度科 60
+  server: 167.88.63.89
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.31|RO NodeTest 88  18156 KB
+  server: 91.219.215.83
+  port: 50168
+  type: ss
+  cipher: aes-256-gcm
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  udp: true
+  speedtest: 185917
+- name: 1.31| DE5188
+  server: 193.108.118.2
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.30|US  Buffalo 3
+  server: 64.44.42.60
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.29| 澳大利亚欢迎订阅youtube8度科技
+  server: 172.105.167.214
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.29|PoolIT17
+  server: 82.102.26.93
+  port: 38620
+  type: ss
+  cipher: aes-256-gcm
+  password: Kquv5UhvZXNMemAQy8DxZ7qn
+- name: 1.28|462921868091
+  server: 46.29.218.6
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.28| 洛杉矶欢迎订阅youtube8度科技 36
+  server: 172.99.190.130
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.28|1.02|US16306
   server: 104.251.233.106
   type: vmess
   country: US
@@ -1324,7 +3069,150 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.01| H3xTW彰化HiNetRC32126
+- name: 1.28| 洛杉矶欢迎订阅youtube8度科技 28
+  server: 172.99.190.90
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.28| 洛杉矶欢迎订阅youtube8度科技 64
+  server: 172.99.190.7
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.28|RS  Belgrade 2
+  server: 152.89.160.211
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- name: 1.27|PoolIT21
+  server: 82.102.26.93
+  port: 47121
+  type: ss
+  cipher: aes-256-gcm
+  password: CTK8GXFQgKYQErrghPJfZ6tk
+- name: 1.27|PT  Lisbon 2
+  server: 91.205.230.134
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.27|17210563347306
+  server: 172.105.63.34
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- server: 66.115.177.141
+  name: 1.27|美国佐治亚亚特兰大ss6611517714142304
+  password: p26v2JwhQVHDHsXk66fXt56r
+  port: 42304
+  cipher: aes-256-gcm
+  type: ss
+- name: 1.27|PT  Porto 2
+  server: 194.39.127.154
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.27|2.17| H3xTW彰化HiNetRC32125
+  server: yqy32125.china-cdn-net.com
+  port: 32125
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.27|githubcomfreefq  瑞典  55
+  server: 167.88.63.61
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.27| 美国欢迎订阅youtube8度科技 95
+  server: 134.195.196.163
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.26| 英国伦敦欢迎订阅youtube8度科技 21
+  server: 193.118.60.166
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.26| 英国伦敦欢迎订阅youtube8度科技 26
+  server: 193.118.60.170
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.26|US16482
+  server: 45.58.45.93
+  type: vmess
+  country: US
+  port: 8888
+  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /ben
+  servername: 45.58.45.93
+  ws-headers:
+    HOST: 45.58.45.93
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.26| 美国欢迎订阅youtube8度科技 66
+  server: 134.195.196.154
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.26| 774Mb
+  server: 198.57.27.238
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.26| 英国伦敦欢迎订阅youtube8度科技 24
+  server: 193.118.60.182
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.26|巴塞罗那欢迎订阅youtube8度科技 5
+  server: 172.107.233.234
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- port: 7307
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 172.99.190.109
+  name: 1.26|美国康涅狄格0ss172991901097307
+- name: 1.26| BE比利时欢迎订阅youtube8度科技
+  server: 91.90.123.115
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+- name: 1.25| 洛杉矶欢迎订阅youtube8度科技 45
+  server: 172.99.190.232
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.25|1.01| H3xTW彰化HiNetRC32126
   server: yqy32126.china-cdn-net.com
   port: 32126
   type: ssr
@@ -1334,20 +3222,440 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 1.01| CN393
-  server: 139.155.22.227
+- name: 1.25| 美国洛杉矶欢迎订阅youtube8度科 30
+  server: 167.88.63.60
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.24| DE5567
+  server: 193.108.118.2
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.24|1.71| cfmemcomUS美国32
+  server: 107.167.20.188
+  port: 443
   type: vmess
-  country: ' CN'
-  port: 49110
-  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
-  network: tcp
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /path/323127100515
+  ws-headers:
+    Host: www.19036987.xyz
+  udp: true
+- name: 1.24|NO  Oslo 4
+  server: 91.219.215.83
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.24| 美国欢迎订阅youtube8度科技 91
+  server: 198.57.27.233
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.23| 美国欢迎订阅youtube8度科技 90
+  server: 198.57.27.218
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.23| 洛杉矶欢迎订阅youtube8度科技 3
+  server: 172.99.190.188
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.23|RS  Belgrade 3
+  server: 152.89.160.148
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.22|1.22| 菲律宾 马尼拉  公益  湘北出口
+  server: apn-e.connect-node.xyz
+  port: 45303
+  type: vmess
+  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /web
+  ws-headers:
+    Host: phi-20.connect-node.xyz
+  udp: true
+- name: 1.22|githubcomfreefq  瑞典  64
+  server: 167.88.63.82
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.22| 英国伦敦欢迎订阅youtube8度科技 45
+  server: 193.118.60.177
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.21|1.27| 美国 圣路易斯  公益  湘北出口
+  server: apn-e.connect-node.xyz
+  port: 45301
+  type: vmess
+  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /web
+  ws-headers:
+    Host: usa-12.connect-node.xyz
+  udp: true
+- server: 193.29.107.125
+  name: 1.21|丹麦哥本哈根0ss1932910712549202
+  password: btzEYXKZxnR7g6H2vFTQK5TD
+  port: 49202
+  cipher: aes-256-gcm
+  type: ss
+- name: 1.20| 美国欢迎订阅youtube8度科技 64
+  server: 134.195.196.154
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.20| githubcomfreefq  北美地区  32
+  server: 198.57.27.241
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.20| 洛杉矶欢迎订阅youtube8度科技 43
+  server: 172.99.190.186
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.20| 英国伦敦欢迎订阅youtube8度科技 28
+  server: 193.118.60.179
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.20| 悉尼欢迎订阅youtube8度科技 6
+  server: 172.105.172.37
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- server: 62.212.239.51
+  name: 1.20|阿塞拜疆00ss622122395144820
+  password: jspgz9G3VmvBMCgMUWLBaZHu
+  port: 44820
+  cipher: aes-256-gcm
+  type: ss
+- name: 1.19| httpsgitiov9999 圣何塞 9
+  server: 142.4.123.135
+  port: 22334
+  type: vmess
+  uuid: 73e7a742-115c-11ec-bf5c-00163cdab24a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.19|1.37|US16314
+  server: nn-ssr24.feiclouddd.me
+  type: vmess
+  country: US
+  port: 443
+  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
+  alterId: 60
+  cipher: auto
+  network: ws
+  ws-path: /dsafasdf
+  servername: nn-ssr24.feiclouddd.me
+  ws-headers:
+    HOST: nn-ssr24.feiclouddd.me
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- server: 62.212.239.51
+  name: 1.19|阿塞拜疆00ss622122395134815
+  password: LkFAzkzXkSCRYa2CsRdL8cGb
+  port: 34815
+  cipher: aes-256-gcm
+  type: ss
+- name: 1.19| 美国欢迎订阅youtube8度科技 80
+  server: 134.195.196.79
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.19|RelayUSUS4216
+  server: azxg.mooncloud.bike
+  type: vmess
+  country: US
+  port: 10020
+  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
+  alterId: 1
+  cipher: auto
+  network: ws
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.01| Russia
+- name: 1.18| githubcomfreefq  美国  40
+  server: 172.99.190.186
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- port: 8090
+  password: PCnnH6SQSnfoS27
+  type: ss
+  cipher: aes-256-gcm
+  server: 134.195.196.163
+  name: 1.18|美国00ss1341951961638090
+- name: 1.18|RO NodeTest 91  1784 KB
+  server: 91.90.123.150
+  port: 50232
+  type: ss
+  cipher: aes-256-gcm
+  password: CjchzpwdSjRtDjezYMwx9BKM
+  udp: true
+  speedtest: 182678
+- name: 1.17| 英国伦敦欢迎订阅youtube8度科技 20
+  server: 193.118.60.165
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.17| githubcomfreefq  北美地区  50
+  server: 198.57.27.243
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.17| 洛杉矶欢迎订阅youtube8度科技 61
+  server: 172.99.190.130
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.16|巴塞罗那欢迎订阅youtube8度科技 4
+  server: 38.39.192.74
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.16| 美国 费利蒙欢迎订阅youtube8度科 12
+  server: 172.105.57.249
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.16| 美国洛杉矶欢迎订阅youtube8度科 62
+  server: 38.107.226.241
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.16| 洛杉矶欢迎订阅youtube8度科技 31
+  server: 172.99.190.109
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.16| 洛杉矶欢迎订阅youtube8度科技 4
+  server: 172.99.190.230
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.15| 美国欢迎订阅youtube8度科技 92
+  server: 198.57.27.243
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.14| 洛杉矶欢迎订阅youtube8度科技 40
+  server: 172.99.190.7
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.14|17210555722375
+  server: 172.105.55.72
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.13| githubcomfreefq  北美地区  26
+  server: 134.195.196.165
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.13| 悉尼欢迎订阅youtube8度科技 14
+  server: 172.105.172.41
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.13|PT  Porto 2
+  server: 194.39.127.154
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- server: 62.212.239.51
+  name: 1.13|阿塞拜疆00ss622122395131764
+  password: YgusH2MWA8PWc3p2VDsR7AVv
+  port: 31764
+  cipher: aes-256-gcm
+  type: ss
+- port: 31572
+  password: n8w4StnbVD9dmXYn4Ajt87EA
+  type: ss
+  cipher: aes-256-gcm
+  server: 64.44.42.60
+  name: 1.13|美国伊利诺伊芝加哥ss6444426031572
+- name: 1.12|瑞士01
+  server: 84.39.114.86
+  port: 49396
+  type: ss
+  cipher: aes-256-gcm
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+- name: 1.12| 英国伦敦欢迎订阅youtube8度科技 39
+  server: 193.118.60.170
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.12| 洛杉矶欢迎订阅youtube8度科技 68
+  server: 172.99.190.57
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.12| 洛杉矶欢迎订阅youtube8度科技 21
+  server: 172.99.190.188
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.12| 洛杉矶欢迎订阅youtube8度科技 29
+  server: 172.99.190.109
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.11|直连 澳大利亚 Netflix SG
+  type: vmess
+  server: 149.28.172.85
+  port: 12222
+  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
+  alterId: 1
+  cipher: auto
+  udp: true
+  network: ws
+- ws-path: /v1032N9rN0yPy
+  port: 80
+  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  alterId: 4
+  type: vmess
+  network: ws
+  server: 193.25.215.85
+  tls: false
+  cipher: auto
+  name: 1.11|美国加利福尼亚0v2ray193252158580
+- name: 1.11|1292272192450168
+  server: 129.227.219.24
+  port: 50168
+  type: ss
+  cipher: aes-256-gcm
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+- name: 1.11|US16490
+  server: 193.123.253.102
+  type: vmess
+  country: US
+  port: 80
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.11| 悉尼欢迎订阅youtube8度科技 2
+  server: 172.105.172.37
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.11| 美国 亚特兰大感谢关注youtube8度科技 8
+  server: 66.115.177.141
+  port: 50168
+  type: ss
+  cipher: aes-256-gcm
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+- port: 7306
+  password: FoOiGlkAA9yPEGP
+  type: ss
+  cipher: aes-256-gcm
+  server: 128.14.222.215
+  name: 1.10|巴西圣保罗圣保罗ss128142222157306
+- name: 1.09|githubcomfreefq  瑞典  63
+  server: 167.88.63.89
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.09|巴塞罗那欢迎订阅youtube8度科技 3
+  server: 38.39.192.74
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- port: 42471
+  protocol-param: ''
+  name: 1.08|加拿大安大略基奇纳ssr456223117742471
+  protocol: origin
+  obfs-param: ''
+  obfs: plain
+  password: https://dlj.tf/ssrsub
+  type: ssr
+  cipher: aes-256-cfb
+  server: 45.62.231.177
+- name: 1.08| 巴西 圣保罗欢迎订阅youtube8度科 6
+  server: 128.14.222.211
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.08| cfmemcomRU俄罗斯联邦2
+  server: ruml.jjyun.ren
+  port: 88
+  type: vmess
+  uuid: c8191e5d-c551-4896-8d57-7493da874557
+  alterId: 10
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jjyun
+  ws-headers:
+    Host: ruml.jjyun.ren
+- name: 1.08|1.01| Russia
   server: russia.cscecsr.tk
   port: 443
   type: trojan
@@ -1355,17 +3663,159 @@ proxies:
   sni: russia.cscecsr.tk
   skip-cert-verify: true
   udp: true
-- name: 1.00|US16317
-  server: usa4a-node.3366test.com
+- name: 1.07|PL  Warsaw 3
+  server: 5.253.206.69
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.07| 巴西 圣保罗欢迎订阅youtube8度科
+  server: 128.14.222.218
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.07| 泰国9276  915Mb
+  server: 27.131.164.94
+  port: 39772
+  type: ss
+  cipher: aes-256-gcm
+  password: CUndSZnYsPKcu6Kj8THVMBHD
+  udp: true
+- name: 1.07|挪威欢迎订阅youtube8度科技 4
+  server: 46.29.218.6
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.07|墨尔本感谢关注youtube8度科技
+  server: 103.192.80.133
+  port: 49339
+  type: ss
+  cipher: aes-256-gcm
+  password: suucSeVLmt6PQKAP77NtGw9x
+- name: 1.06|1.48| HTW高雄龍抬頭HiNetVC33135
+  server: yqy33135.china-cdn-net.com
+  port: 33135
   type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
   cipher: auto
+  tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /ray
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
+  ws-path: /iso
+  ws-headers:
+    Host: yqy33135.china-cdn-net.com
+- name: 1.06| 洛杉矶欢迎订阅youtube8度科技 19
+  server: 172.99.190.246
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.06|ES  Valencia 2
+  server: 185.153.150.51
+  port: 47027
+  type: ss
+  cipher: aes-256-gcm
+  password: Vt5pBJFwdtNB26cJbTXxm88Z
+  udp: true
+- server: 66.115.177.156
+  name: 1.06|美国佐治亚亚特兰大ss6611517715633148
+  password: CMduaFXddcQbwNAAs7xFDnc8
+  port: 33148
+  cipher: aes-256-gcm
+  type: ss
+- name: 1.06|US NodeTest 54  2048 KB
+  server: 66.115.177.141
+  port: 31572
+  type: ss
+  cipher: aes-256-gcm
+  password: n8w4StnbVD9dmXYn4Ajt87EA
+  udp: true
+  speedtest: 209715
+- name: 1.06|PoolIN83
+  server: 137.59.52.107
+  port: 33992
+  type: ss
+  cipher: aes-256-gcm
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+- name: 1.05| 巴西 圣保罗欢迎订阅youtube8度科 10
+  server: 128.14.222.216
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.05|668 6489Mb
+  server: t1.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
+  sni: t1.ssrsub.com
+  udp: true
+- name: 1.05| githubcomfreefq  美国  61
+  server: 172.99.190.35
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.04|128142222167307
+  server: 128.14.222.216
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.03| githubcomfreefq  北美地区  54
+  server: 134.195.198.252
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.03|05
+  server: 72.140.224.197
+  port: 802
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 1.03|US NodeTest 9  24854 KB
+  server: 66.115.177.141
+  port: 41676
+  type: ss
+  cipher: aes-256-gcm
+  password: z6pH3RyttkRWhJ5tpRyt6dYk
+  udp: true
+  speedtest: 254508
+- name: 1.02|PT  Lisbon 3
+  server: 91.205.230.132
+  port: 31369
+  type: ss
+  cipher: aes-256-gcm
+  password: nCjhBSdrUqQxra8kyKzjTjm8
+  udp: true
+- name: 1.02|RO NodeTest 85  1872 KB
+  server: 193.29.107.125
+  port: 34815
+  type: ss
+  cipher: aes-256-gcm
+  password: LkFAzkzXkSCRYa2CsRdL8cGb
+  udp: true
+  speedtest: 191695
+- name: 1.02| 直连 新加坡3 ZR公益 0x
+  server: 13.250.111.196
+  port: 54250
+  type: vmess
+  uuid: a9bd4a1f-4796-4016-9f95-f0fc778ada86
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 13.250.111.196
+- name: 1.00| 洛杉矶欢迎订阅youtube8度科技 33
+  server: 172.99.190.57
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
