@@ -49,6 +49,14 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 4.50|JP7023 2643Mb
+  server: 45.66.134.219
+  type: trojan
+  country: JP
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
 - name: 4.22| H25xTW台北HiNetRC31121
   server: yqy31121.china-cdn-net.com
   port: 31121
@@ -69,6 +77,25 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 4.09|JP7017 1544Mb
+  server: jp-server-02.selfupay.com
+  type: trojan
+  country: JP
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 3.49| Game 3 PPhttp
+  type: trojan
+  server: sg2-trojan.bonds.id
+  port: 443
+  password: 7d450710-f1ad-11eb-a226-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2c
+  - http/1.1
+  skip-cert-verify: true
 - name: 3.20| I6xTW彰化HiNetRC32128
   server: yqy32128.china-cdn-net.com
   port: 32128
@@ -120,6 +147,14 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 2.94|CN2509  448Mb
+  server: gb1.v2.zz.cn.fuckword.club
+  type: trojan
+  country: CN
+  port: 47836
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
 - name: 2.88|RelayCNIN244
   server: cu.newhost.cc
   type: ssr
@@ -131,6 +166,57 @@ proxies:
   protocol-param: 4647:thd4vu
   obfs: tls1.2_ticket_auth
   obfs-param: .microsoft.com
+- name: 2.80| Game 1 PPhttp
+  type: trojan
+  server: id1-trojan.bonds.id
+  port: 443
+  password: 9e266b10-f204-11eb-96b8-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 2.76|CN2506  317Mb
+  server: 3.hk.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 36681
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.75|CN2511  941Mb
+  server: 3.jp.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 36675
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.70|CN2512  441Mb
+  server: 2.jp.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 36671
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.67|CN2503  353Mb
+  server: hkt01.hk.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 56812
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.62|CN2508  651Mb
+  server: 3.sg.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 36679
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
 - name: 2.54| HTW高雄龍抬頭HiNetRC33227
   server: yqy33227.china-cdn-net.com
   port: 33227
@@ -141,6 +227,14 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 2.43|SG10433
+  server: 188.166.242.117
+  type: trojan
+  country: SG
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
 - name: 2.40| HTW高雄龍抬頭HiNetRC33125
   server: yqy33125.china-cdn-net.com
   port: 33125
@@ -171,6 +265,14 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 2.23|CN2510  572Mb
+  server: hk1.v3.zz.cn.fuckword.club
+  type: trojan
+  country: CN
+  port: 47605
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
 - name: 2.22| I6xHKHKTBGPRC36224
   server: yqy36224.china-cdn-net.com
   port: 36224
@@ -201,6 +303,93 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 1.84|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.83|US16346
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.81|JP7022  840Mb
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.70|DE3261 1263Mb
+  server: 194.195.124.174
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.61|GB4893 5611Mb
+  server: 138.68.179.78
+  type: trojan
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.57|DE3259 3718Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.55|CA2144 13804Mb
+  server: 138.197.162.114
+  type: trojan
+  country: CA
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.49|RO9933
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.43|  292Mb
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.43|663 1023Mb
+  server: t4.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
+  sni: t4.ssrsub.com
+  udp: true
+- name: 1.42|659 10893Mb
+  server: t6.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  sni: t6.ssrsub.com
+  udp: true
 - name: 1.40| H25xTW彰化HiNetRC32121
   server: yqy32121.china-cdn-net.com
   port: 32121
@@ -211,6 +400,38 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 1.38|DE3258 5374Mb
+  server: 139.59.209.152
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.30|NL7787
+  server: 178.62.201.120
+  type: trojan
+  country: NL
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.21|US16424
+  server: 139.177.197.51
+  type: trojan
+  country: US
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.21|NL7794
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
 - name: 1.01| H3xTW彰化HiNetRC32126
   server: yqy32126.china-cdn-net.com
   port: 32126
@@ -221,3 +442,11 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
+- name: 1.01| Russia
+  server: russia.cscecsr.tk
+  port: 443
+  type: trojan
+  password: abc123
+  sni: russia.cscecsr.tk
+  skip-cert-verify: true
+  udp: true
