@@ -1,429 +1,479 @@
 proxies:
-- name: 4.37|RO10006 2112Mb
-  server: 62.216.92.179
-  type: trojan
-  country: RO
+- name: 5.42|httpsgitiov9999ip312
+  server: 198.41.212.13
   port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 3.88|2.23|CN2510  572Mb
-  server: hk1.v3.zz.cn.fuckword.club
-  type: trojan
-  country: CN
-  port: 47605
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 3.12|2.70|CN2512  441Mb
-  server: 2.jp.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36671
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.91|2.62|CN2508  651Mb
-  server: 3.sg.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36679
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.87|2.75|CN2511  941Mb
-  server: 3.jp.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36675
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.87|2.94|CN2509  448Mb
-  server: gb1.v2.zz.cn.fuckword.club
-  type: trojan
-  country: CN
-  port: 47836
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.79|2.76|CN2506  317Mb
-  server: 3.hk.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36681
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.75|RO10015  858Mb
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 2.56|1.60| 香港I02BGZ
-  server: gz.nat.beer.mypeter.top
-  port: 60610
   type: vmess
-  uuid: 205c9676-57ec-31dd-b28b-21784535e18c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ss
-  ws-headers:
-    Host: inkhk02.mypeter.top
-  udp: true
-- name: 2.34|2.67|CN2503  353Mb
-  server: hkt01.hk.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 56812
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.21|3.49| Game 3 PPhttp
-  type: trojan
-  server: sg2-trojan.bonds.id
-  port: 443
-  password: 7d450710-f1ad-11eb-a226-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2c
-  - http/1.1
-  skip-cert-verify: true
-- name: 2.14|2.80| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 1.91|御坂群专属永久维护备用机子别挤
-  server: zzr.zzzr.ltd
-  port: 2053
-  type: vmess
-  uuid: a737264c-2bea-11ec-83c0-414353016dec
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /8qgBdhe3/
-  ws-headers:
-    Host: zzr.zzzr.ltd
-- name: 1.83|1.39|RelayKRNL980
-  server: kr02.uuv2.uk
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 4.92| githubcomfreefq  美国CloudFlare节点 32
+  server: 198.41.212.9
+  port: 443
   type: vmess
-  country: KR
-  port: 8443
-  uuid: 7d748879-689b-4220-a45f-9964da7beb90
-  alterId: 1
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
   cipher: auto
+  tls: true
   network: ws
-  ws-path: /TG@mftizi
-  servername: kr02.uuv2.uk
+  ws-path: /sakura/
   ws-headers:
-    HOST: kr02.uuv2.uk
-  http-opts: {}
-  h2-opts: {}
+    Host: zero1.a-yu.xyz
+- name: 3.21|CYL科技20220213 19
+  server: aws.kr.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
   tls: true
   skip-cert-verify: true
-- name: 1.82|1.84|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.76|1.83|US16346
-  server: 72.167.45.6
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: aws.kr.tgproxy.wtf
+  udp: true
+- name: 2.91|CYL科技20220213 3
+  server: oracle.kr.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: oracle.kr.tgproxy.wtf
+  udp: true
+- name: 2.32|RelayUSUS23601390Mb
+  server: 56789.gq
   type: trojan
   country: US
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3
   skip-cert-verify: true
   udp: true
-- name: 1.72|1.81|JP7022  840Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.70|1.43|  292Mb
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.66|1.61|GB4893 5611Mb
-  server: 138.68.179.78
-  type: trojan
-  country: GB
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.65|NL7848 5813Mb
-  server: ned-server-01.selfupay.com
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.58|RO10010  951Mb
-  server: hk-server-01.selfupay.com
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.52|1.57|DE3259 3718Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.51|654 5858Mb
-  server: v1.ssrsub.com
+- name: 2.29|CYL科技20220213 28
+  server: tfn.tw.tgproxy.wtf
+  port: 8888
   type: vmess
-  port: 158
-  udp: true
-  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v1.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: 1.51|1.68| cfmemcomUS美国25
-  server: 64.32.13.3
-  port: 443
-  type: vmess
-  uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /path/323127100515
-  ws-headers:
-    Host: www.12001759.xyz
-  udp: true
-- name: 1.51|1.03| cfmemcomUS美国19
-  server: 23.234.223.28
-  port: 443
-  type: vmess
-  uuid: e52db663-720b-4894-8235-dac718e65e3f
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/323127100515
-  ws-headers:
-    Host: www.68080962.xyz
-- name: 1.50|1.21|NL7794
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.49|RO10014 3171Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.46|NL7851 5882Mb
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.42|1.30|NL7787
-  server: 178.62.201.120
-  type: trojan
-  country: NL
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.42|1.41|RelayAUDE286
-  server: 1.0.0.0
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.41|1.42|659 10893Mb
-  server: t6.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
-  sni: t6.ssrsub.com
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: tfn.tw.tgproxy.wtf
   udp: true
-- name: 1.40|1.49|RO9933
-  server: 185.105.191.92
-  type: trojan
-  country: RO
+- name: 1.99|CYL科技20220213 134
+  server: 72.11.136.212
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.35| CA2013 7536Mb
-  server: v9.ssrsub.com
   type: vmess
-  country: ' CA'
-  port: 158
-  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  uuid: 6b02b504-ead6-4939-ba1c-afa5b92a6f6d
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.34|1.70|DE3261 1263Mb
-  server: 194.195.124.174
-  type: trojan
-  country: DE
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: govacaxixo.watchdoctor.xyz
   udp: true
-- name: 1.33|RU10288 1106Mb
-  server: t3.ssrsub.com
-  type: trojan
+- name: 1.97|CYL科技20220213 138
+  server: ce.xjp.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: ce.xjp.tgproxy.wtf
+  udp: true
+- name: 1.88|USwmt212111
+  server: 6.lyzghim.com
+  port: 443
+  type: vmess
+  uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /qwe
+    host: 6.lyzghim.com
+- name: 1.87|RelayRURU8511224Mb
+  server: 5.188.35.120
+  type: vmess
   country: RU
-  port: 8443
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  skip-cert-verify: true
-  udp: true
-- name: 1.28|1.02|US16306
-  server: 104.251.233.106
-  type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-  alterId: 10
+  port: 443
+  uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7
+  alterId: 0
   cipher: auto
   network: ws
   ws-path: /ray
-  servername: en.tgchannels.org/channel/vpnpool
+  servername: govacaxixo.watchdoctor.xyz
   ws-headers:
-    HOST: en.tgchannels.org/channel/vpnpool
+    HOST: govacaxixo.watchdoctor.xyz
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.24|1.71| cfmemcomUS美国32
-  server: 107.167.20.188
+- name: 1.84|US15420810120810
+  server: ceraus.moonfree.top
   port: 443
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  uuid: 00c4674c-3c41-4b77-909e-feed63066b91
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: ceraus.moonfree.top
+- name: 1.79|Relay2369Mb
+  server: 45.76.127.189
+  type: vmess
+  country: AU
+  port: 443
+  uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.75| httpsgitiov9999ip3美国2
+  server: 192.3.145.143
+  port: 443
+  type: vmess
+  uuid: f2ac5a3b-575f-4888-8997-43958deda5a4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.74|小汐搬运04承接灰产代收付回U对接API支付通道电报httpstmemengmenng
+  server: v2ray.ifuckgfw.ga
+  port: 8443
+  type: vmess
+  uuid: a1effd82-8a11-11ec-9aeb-52ac0014346a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /nBaG3RmV/
+  ws-headers:
+    Host: v2ray.ifuckgfw.ga
+- name: 1.72| httpsgitiov9999ip3韩国2
+  server: 128.1.125.164
+  port: 443
+  type: vmess
+  uuid: 312c3de7-233e-4d72-b3dc-de0205083312
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.70| httpsgitiov9999ip3法国51 2
+  server: fg.jgw.tgproxy.wtf
+  port: 443
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: fg.jgw.tgproxy.wtf
+- name: 1.69|CYL科技20220213 64
+  server: aws.us.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: aws.us.tgproxy.wtf
+  udp: true
+- name: 1.62|CYL科技20220213 58
+  server: 134.119.176.171
+  port: 443
+  type: vmess
+  uuid: b1a868c2-cba7-42c5-bba5-ae158894402e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: govacaxixo.watchdoctor.xyz
+  udp: true
+- name: 1.61| httpsgitiov9999ip3美国1
+  server: 196.247.24.156
+  port: 443
+  type: vmess
+  uuid: c028c1ff-c006-4dc7-bd7e-a61c99b4f306
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.58|RelayUSUS23541286Mb
+  server: www.darkwater.xyz
+  type: trojan
+  country: US
+  port: 41759
+  password: ixkIc4mCzH
+  skip-cert-verify: true
+  udp: true
+- name: 1.55| US186 TGpeekfun
+  server: 209.141.35.147
+  port: 48919
+  type: trojan
+  country: ' US'
+  password: 52911320-db53-40ff-917a-e5de797c28e7
+  skip-cert-verify: true
+  udp: true
+- name: 1.55|httpsgitiov9999ip3瑞典35
+  server: dg.jgw.tgproxy.wtf
+  port: 443
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: dg.jgw.tgproxy.wtf
+- name: 1.54|CYL科技20220213 101
+  server: gia.uk.tgproxy.wtf
+  port: 443
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: gia.uk.tgproxy.wtf
+  udp: true
+- name: 1.53|CYL科技20220213 36
+  server: aws.in.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: aws.in.tgproxy.wtf
+  udp: true
+- name: 1.53|Relay  717Mb
+  server: 162.159.204.77
+  port: 443
+  type: vmess
+  uuid: 3646a0c9-69b0-4cf9-c262-890ab5466d35
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /freebaipiao
+  ws-headers:
+    Host: haxca.aifx.eu.org
+- name: 1.52|Pool1817Mb
+  server: 107.155.83.152
+  type: vmess
+  country: US
+  port: 443
+  uuid: 8f469f1b-1fd3-433b-9fd9-b4e041b9df16
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.51|Pool 800Mb
+  server: 198.148.92.246
+  type: vmess
+  country: US
+  port: 443
+  uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.51|RUJH21397
+  server: 92.223.72.42
+  port: 443
+  type: vmess
+  uuid: ae08412f-5bb9-4be7-8560-1984976a1097
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: govacaxixo.watchdoctor.xyz
+  udp: true
+- name: 1.45|CYL科技20220213 43
+  server: tw.main.tgproxy.wtf
+  port: 30002
+  type: vmess
+  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: tw.main.tgproxy.wtf
+  udp: true
+- name: 1.44|Pool 1056Mb
+  server: 92.223.65.119
+  port: 443
+  type: vmess
+  uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: govacaxixo.watchdoctor.xyz
+- name: 1.44| 德国阿伟科技TG油管 3
+  server: 37.61.213.94
+  port: 443
+  type: vmess
+  uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
-  ws-path: /path/323127100515
+  ws-path: /ray
   ws-headers:
-    Host: www.19036987.xyz
-  udp: true
-- name: 1.22|1.22| 菲律宾 马尼拉  公益  湘北出口
-  server: apn-e.connect-node.xyz
-  port: 45303
+    Host: govacaxixo.watchdoctor.xyz
+- name: 1.44|Relay 962Mb
+  server: 144.168.228.188
   type: vmess
-  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /web
-  ws-headers:
-    Host: phi-20.connect-node.xyz
-  udp: true
-- name: 1.21|1.27| 美国 圣路易斯  公益  湘北出口
-  server: apn-e.connect-node.xyz
-  port: 45301
-  type: vmess
-  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /web
-  ws-headers:
-    Host: usa-12.connect-node.xyz
-  udp: true
-- name: 1.19|1.37|US16314
-  server: nn-ssr24.feiclouddd.me
-  type: vmess
-  country: US
+  country: CA
   port: 443
-  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
-  alterId: 60
+  uuid: 8809f39b-82de-4c44-a047-74d4890bf1c5
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /dsafasdf
-  servername: nn-ssr24.feiclouddd.me
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
   ws-headers:
-    HOST: nn-ssr24.feiclouddd.me
+    HOST: govacaxixo.watchdoctor.xyz
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.08|1.01| Russia
-  server: russia.cscecsr.tk
+- name: 1.42|Pool2389Mb
+  server: 37.120.134.207
+  type: vmess
+  country: GB
   port: 443
+  uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.41|RelayUSUS23571879Mb
+  server: 198.52.125.218
   type: trojan
-  password: abc123
-  sni: russia.cscecsr.tk
+  country: US
+  port: 55432
+  password: bab4574d-dd84-4003-8926-f45512c39aa3
   skip-cert-verify: true
   udp: true
-- name: 1.05|668 6489Mb
-  server: t1.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  sni: t1.ssrsub.com
+- name: 1.37| githubcomfreefq  美国内华达州拉斯维加斯BuyVM 20
+  server: us.lv.buyvm.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: us.lv.buyvm.tgproxy.wtf
+- name: 1.16|CYL科技20220213 59
+  server: niaop.tk
+  port: 443
+  type: vmess
+  uuid: a0b0df87-bda2-440e-830f-347da6cc7760
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /wsssdr1
+  ws-headers:
+    Host: niaop.tk
   udp: true
