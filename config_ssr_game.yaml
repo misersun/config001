@@ -1,50 +1,4 @@
 proxies:
-- name: 6.77|香港阿伟科技TG油管 3
-  server: 3.vpnbro.ml
-  port: 9999
-  type: trojan
-  password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3
-  sni: 3.vpnbro.ml
-  skip-cert-verify: true
-  udp: true
-- name: 6.68|香港阿伟科技TG油管 2
-  server: 5.vpnbro.ml
-  port: 6666
-  type: trojan
-  password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3
-  sni: 5.vpnbro.ml
-  skip-cert-verify: true
-  udp: true
-- name: 5.14|Relay2106Mb
-  server: p3.centaur.network
-  type: trojan
-  country: CN
-  port: 16803
-  password: 00635f3d-2c64-4281-9367-f3c26ebb6a44
-  skip-cert-verify: true
-  udp: true
-- name: 3.97|Relay1416Mb
-  server: 117.28.243.173
-  type: ss
-  country: CN
-  port: 4173
-  password: passinfo123
-  cipher: rc4-md5
-- name: 3.68|Relay2877Mb
-  server: h1r.centaur.network
-  type: trojan
-  country: CN
-  port: 16802
-  password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f
-  skip-cert-verify: true
-  udp: true
-- name: 3.61| 中国852MBsYoutube不良林
-  server: h2r.centaur.network
-  port: 16801
-  type: trojan
-  password: 9be5458a-6a1e-4784-823e-45149d6c0ffc
-  sni: h2r.centaur.network
-  skip-cert-verify: true
 - name: 3.30|Relay1105Mb
   server: shonlinecu.proconcn.xyz
   type: ssr
@@ -55,14 +9,6 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 50374:ff112233
   obfs: plain
-- name: 1.84| HK86 TGpeekfun
-  server: hk.hkt.lilyco.cc
-  port: 443
-  type: trojan
-  country: ' HK'
-  password: sharecentre
-  skip-cert-verify: true
-  udp: true
 - name: 1.70| 美国 15
   server: 42.157.195.233
   port: 12127
@@ -272,13 +218,6 @@ proxies:
   protocol-param: 600777:154T8b
   obfs-param: 0f099600777.v23f7nM0
   udp: true
-- name: 1.34|Relay 997Mb
-  server: 117.28.243.220
-  type: ss
-  country: CN
-  port: 8076
-  password: passinfo123
-  cipher: rc4-md5
 - name: 1.34| 美国 12
   server: 42.157.195.229
   port: 12127
@@ -323,14 +262,6 @@ proxies:
   protocol-param: 149:y711wfz6uln
   obfs: tls1.2_ticket_auth
   obfs-param: 30a2a149.baidu.com
-- name: 1.08|香港阿伟科技TG油管 5
-  server: h4r.centaur.network
-  port: 16801
-  type: trojan
-  password: 134b2dad-1ba4-49f6-a8b8-721525213356
-  sni: h4r.centaur.network
-  skip-cert-verify: true
-  udp: true
 - name: 1.07| 新加坡 1
   server: 14.152.92.81
   port: 12127
@@ -406,63 +337,25 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 50374:ff112233
   obfs: plain
-- name: 0.47| 广东省广州市腾讯云 12
-  server: 159.75.50.77
-  port: 40026
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 28
-  server: 106.52.33.67
-  port: 40374
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 24
-  server: 106.52.33.67
-  port: 40371
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 26
-  server: 1.14.165.96
-  port: 40262
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 17
-  server: 106.52.33.67
-  port: 40368
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 38
-  server: 1.14.165.96
-  port: 40252
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 16
-  server: 106.52.33.67
-  port: 40322
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 33
-  server: 106.52.33.67
-  port: 40378
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 13
-  server: 1.14.165.96
-  port: 40246
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.47| 广东省广州市腾讯云 32
-  server: 1.14.165.96
-  port: 40254
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+- name: 0.45|Relay1046Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1117
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 0.41|Relay1248Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2102
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
