@@ -1,57 +1,35 @@
 proxies:
-- name: 5.40|RELAY172671291901331
+- name: 4.03|Relay7534Mb
   server: hkt.jslist.tk
-  port: 8880
   type: vmess
+  country: US
+  port: 8880
   uuid: efe08abe-e627-4f72-f02f-af00692a0bf4
   alterId: 0
   cipher: auto
-  skip-cert-vertify: false
   network: ws
   ws-path: /api/images
-  tls: false
+  servername: hkt.jslist.tk
   ws-headers:
-    Host: hkt.jslist.tk
-- name: 2.79| 2699Mb
-  server: ml.godlight.xyz
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 3b9bfc9a-280a-4630-bf0f-6ed91ac8c780
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: www.amazon.com
-  ws-headers:
-    HOST: www.amazon.com
+    HOST: hkt.jslist.tk
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.40|US10717286811088
-  server: 107.172.86.81
-  port: 8888
-  type: vmess
-  uuid: e240e215-832b-4ca4-bf37-85b51b8395d1
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 107.172.86.81
-- name: 2.09| 韩国 4
+- name: 3.58|Relay 650Mb
   server: arm.50k.one
-  port: 39966
   type: vmess
+  country: JP
+  port: 39966
   uuid: 608408f6-fd79-49a3-96ef-003266a773a0
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 1.96| 韩国 2
+  network: tcp
+  ws-path: /
+  servername: arm.50k.one
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.39| 韩国 2
   server: amd.50k.one
   port: 30943
   type: vmess
@@ -61,41 +39,21 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 1.48|  990Mb
-  server: 176.126.70.189
-  type: vmess
-  country: SE
-  port: 12100
-  uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /se
-  servername: 176.126.70.189
-  ws-headers:
-    HOST: 176.126.70.189
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.44|RelaySESE769
+- name: 1.75| RelaySESE1132
   server: se.oceancloud.asia
-  type: vmess
-  country: SE
   port: 12100
+  type: vmess
   uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88
   alterId: 0
   cipher: auto
+  tls: false
   network: ws
   ws-path: /se
-  servername: se.oceancloud.asia
   ws-headers:
-    HOST: se.oceancloud.asia
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.13|NL178622241191334
-  server: 178.62.224.119
-  port: 8888
+    Host: se.oceancloud.asia
+- name: 1.34|AE193123951141244
+  server: 193.123.95.114
+  port: 21999
   type: vmess
   uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
   alterId: 0
@@ -105,4 +63,4 @@ proxies:
   ws-path: /
   tls: false
   ws-headers:
-    Host: 178.62.224.119
+    Host: 193.123.95.114
