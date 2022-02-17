@@ -1,80 +1,108 @@
 proxies:
-- name: 3.87|CYL科技20220213 16
-  server: 3.35.206.85
-  port: 8080
+- name: 5.40|RELAY172671291901331
+  server: hkt.jslist.tk
+  port: 8880
   type: vmess
-  uuid: bec0f7e4-500f-4746-8e22-ce1430e51bcf
+  uuid: efe08abe-e627-4f72-f02f-af00692a0bf4
   alterId: 0
   cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /api/images
   tls: false
-  skip-cert-verify: true
+  ws-headers:
+    Host: hkt.jslist.tk
+- name: 2.79| 2699Mb
+  server: ml.godlight.xyz
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 3b9bfc9a-280a-4630-bf0f-6ed91ac8c780
+  alterId: 0
+  cipher: auto
   network: ws
   ws-path: /
+  servername: www.amazon.com
   ws-headers:
-    Host: 3.35.206.85
-  udp: true
-- name: 3.27|Relay  575Mb
-  server: xmlinodejp.aifx.eu.org
-  port: 11019
-  type: vmess
-  uuid: 69b0c606-a218-434d-99c0-331cb3c2762a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /freebaipiao
-  ws-headers:
-    Host: www.yyxi.ml
-- name: 2.78|CYL科技20220213 2
-  server: 3.112.20.77
-  port: 8080
-  type: vmess
-  uuid: bec0f7e4-500f-4746-8e22-ce1430e51bcf
-  alterId: 0
-  cipher: auto
-  tls: false
+    HOST: www.amazon.com
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 3.112.20.77
-  udp: true
-- name: 2.10| 台湾阿伟科技TG油管 3
-  server: tw01.lilyco.cc
-  port: 59801
+- name: 2.40|US10717286811088
+  server: 107.172.86.81
+  port: 8888
   type: vmess
-  uuid: a209854a-30ed-4887-e7d2-70c7e45f814c
+  uuid: e240e215-832b-4ca4-bf37-85b51b8395d1
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 107.172.86.81
+- name: 2.09| 韩国 4
+  server: arm.50k.one
+  port: 39966
+  type: vmess
+  uuid: 608408f6-fd79-49a3-96ef-003266a773a0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: tw01.lilyco.cc
-- name: 1.76| 瑞典阿伟科技TG油管
-  server: se.oceancloud.asia
-  port: 12100
+  udp: true
+- name: 1.96| 韩国 2
+  server: amd.50k.one
+  port: 30943
   type: vmess
-  uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88
+  uuid: a0654eba-7b58-4d64-cfdb-c006e5d38324
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-path: /se
-  ws-headers:
-    Host: se.oceancloud.asia
-- name: 1.58| 瑞典阿伟科技TG油管 2
+  udp: true
+- name: 1.48|  990Mb
   server: 176.126.70.189
-  port: 12100
   type: vmess
+  country: SE
+  port: 12100
   uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
   network: ws
   ws-path: /se
+  servername: 176.126.70.189
   ws-headers:
-    Host: se.oceancloud.asia
+    HOST: 176.126.70.189
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.44|RelaySESE769
+  server: se.oceancloud.asia
+  type: vmess
+  country: SE
+  port: 12100
+  uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /se
+  servername: se.oceancloud.asia
+  ws-headers:
+    HOST: se.oceancloud.asia
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.13|NL178622241191334
+  server: 178.62.224.119
+  port: 8888
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 178.62.224.119
